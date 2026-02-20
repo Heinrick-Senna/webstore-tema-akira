@@ -1,0 +1,1504 @@
+{
+  "PREF_1": "ffffff",
+  "PREF_2": "F4F5F6",
+  "PREF_3": "444444",
+  "PREF_4": "444444",
+  "PREF_5": "444444",
+  "PREF_6": "ffffff",
+  "PREF_7": "000000",
+  "PREF_8": "444444",
+  "PREF_9": "ffffff",
+  "PREF_10": "14",
+  "PREF_11": "14",
+  "PREF_12": "ffffff",
+  "PREF_13": "ffffff",
+  "PREF_14": "222222",
+  "PREF_15": "14",
+  "PREF_16": "444444",
+  "PREF_17": "14",
+  "PREF_18": "FFFFFF",
+  "PREF_19": "14",
+  "PREF_20": "FFFFFF",
+  "PREF_21": "14",
+  "PREF_22": "222222",
+  "PREF_23": "14",
+  "PREF_24": "FFFFFF",
+  "PREF_25": "14",
+  "PREF_26": "FFFFFF",
+  "PREF_27": "14",
+  "PREF_28": "FFFFFF",
+  "PREF_29": "444444",
+  "PREF_30": "444444",
+  "PREF_31": "FFFFFF",
+  "PREF_32": "ffffff",
+  "PREF_33": "ffffff",
+  "PREF_34": "ffffff",
+  "PREF_35": "14",
+  "PREF_36": "FFFFFF",
+  "PREF_37": "333333",
+  "PREF_38": "14",
+  "PREF_39": "14",
+  "PREF_40": "ffffff",
+  "PREF_41": "222222",
+  "PREF_42": "14",
+  "PREF_43": "14",
+  "PREF_44": "14",
+  "PREF_45": "14",
+  "PREF_46": "14",
+  "PREF_47": "14",
+  "PREF_48": "222222",
+  "PREF_49": "F4F5F6",
+  "PREF_50": "",
+  "MENU_LATERAL": true,
+  "MENU_LATERAL_HOME": false,
+  "PRODS_PAG": 36,
+  "PRODS_PAG_HOME": 12,
+  "PRODS_LINHA": 4,
+  "BUSCA_TEXTO": "Busque aqui...",
+  "CARRINHO_TEXTO": "Meu carrinho",
+  "FPGTO": "",
+  "modulos": [
+    {
+      "nome": "ws-wsjs",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-main",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-wirestyle",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-placeholders",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-icons",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-banners",
+      "versao": "1.1",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-info-lojas",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-categories",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-manufacturers",
+      "versao": "1.0",
+      "etapa": "HOME"
+    },
+    {
+      "nome": "ws-condition",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-login-options",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-newsletter",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-prod-template-rules",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-prod-template",
+      "versao": "2.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-prod-list",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-cart-drawer-desktop",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-cart-drawer-rules",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-plugin-keenslider",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-category-filter",
+      "versao": "1.0",
+      "etapa": "LISTAGEM"
+    },
+    {
+      "nome": "ws-blogs",
+      "versao": "1.0",
+      "etapa": "BLOG,BLOG_VIEW"
+    },
+    {
+      "nome": "ws-pag-contact",
+      "versao": "1.0",
+      "etapa": "PRODUTO,CONTATO"
+    },
+    {
+      "nome": "ws-pag-institutional",
+      "versao": "1.0",
+      "etapa": "PAGINAS_INST"
+    },
+    {
+      "nome": "ws-footer-badges",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-adptionstyle",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
+      "nome": "ws-pag-prod-desktop",
+      "versao": "1.0",
+      "etapa": "PRODUTO"
+    },
+    {
+      "nome": "ws-checkout-cart",
+      "versao": "1.0",
+      "etapa": "CARRINHO,FORMAS_PAGAMENTO,FinalPagamento"
+    },
+    {
+      "nome": "ws-checkout-header",
+      "versao": "1.0",
+      "etapa": "CARRINHO,FORMAS_PAGAMENTO,FinalPagamento"
+    },
+    {
+      "nome": "ws-checkout-footer",
+      "versao": "1.0",
+      "etapa": "FORMAS_PAGAMENTO,CARRINHO,FinalPagamento"
+    },
+    {
+      "nome": "ws-pag-prod-rules",
+      "versao": "1.0",
+      "etapa": "PRODUTO"
+    },
+    {
+      "nome": "ws-dragdrop",
+      "versao": "1.0",
+      "etapa": "HOME"
+    }
+  ],
+  "modulos_loja": [
+    {
+      "nome": "modulo_idade",
+      "etapa": "*"
+    }
+  ],
+  "grupoPreferencias": [
+    {
+      "grupo": "Topo",
+      "variaveis": [
+        {
+          "id": "bg-header-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Geral",
+          "padrao": "ffffffff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "header"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-header-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Geral",
+          "padrao": "000000ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "header"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "bg-input-header-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Elementos",
+          "padrao": "ffffffff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "header"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-input-header-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Elementos",
+          "padrao": "000000ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "header"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Menu",
+      "variaveis": [
+        {
+          "id": "color-menu-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Normal",
+          "padrao": "444444ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "menu"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "bg-menu-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Subcategorias",
+          "padrao": "f84343ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "menu"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "new-menu-color-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Subcategorias",
+          "padrao": "444444ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "menu"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "bg-hover-menu-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Hover",
+          "padrao": "b61313ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "menu"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-hover-menu-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Hover",
+          "padrao": "ffffffff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "menu"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Condições",
+      "variaveis": [
+        {
+          "id": "bg-condition-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffffff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-icon-condition-var",
+          "tipo": "color",
+          "titulo": "Cor do icone",
+          "titulo_subgrupo": "Cores",
+          "padrao": "F84343",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": null
+        },
+        {
+          "id": "color-title-condition-var",
+          "tipo": "color",
+          "titulo": "Cor do título",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-subtitle-condition-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Listagem de Produtos",
+      "variaveis": [
+        {
+          "id": "photowrap-var",
+          "tipo": "option",
+          "titulo": "Proporção das imagens",
+          "titulo_subgrupo": "Opções",
+          "padrao": "3/4",
+          "pref_dependency_id": null,
+          "objetos": [],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "Quadrada - 1:1|1/1",
+            "Vertical - 3:4|3/4",
+            "Horizontal - 4:3|4/3"
+          ]
+        },
+        {
+          "id": "prodperline-var",
+          "tipo": "option",
+          "titulo": "Produtos por linha",
+          "titulo_subgrupo": "Opções",
+          "padrao": "4",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "prodperline-categorie-var",
+          "tipo": "option",
+          "titulo": "Produtos por linha na categoria",
+          "titulo_subgrupo": "Opções",
+          "padrao": "3",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "prodbutton-var",
+          "tipo": "option",
+          "titulo": "Botão comprar na listagem",
+          "titulo_subgrupo": "Opções",
+          "padrao": "false",
+          "pref_dependency_id": null,
+          "objetos": [],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "Desativado|false",
+            "Comprar agora|2",
+            "Adicionar ao carrinho|1"
+          ]
+        },
+        {
+          "id": "bg-prod-list-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffffff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-title-prod-list-var",
+          "tipo": "color",
+          "titulo": "Cor do título",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": null
+        },
+        {
+          "id": "color-subtitle-prod-list-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Fabricantes",
+      "variaveis": [
+        {
+          "id": "bg-manufacturer-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "FFFFFF",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Newsletter",
+      "variaveis": [
+        {
+          "id": "bg-newsletter-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffe5e5ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-title-newsletter-var",
+          "tipo": "color",
+          "titulo": "Cor do titulo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-subtitle-newsletter-var",
+          "tipo": "color",
+          "titulo": "Cor do texto",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "bg-input-newsletter-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo dos campos",
+          "titulo_subgrupo": "Cores",
+          "padrao": "FFFFFF",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-input-newsletter-var",
+          "tipo": "color",
+          "titulo": "Cor do texto dos campos",
+          "titulo_subgrupo": "Cores",
+          "padrao": "393939",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Rodapé",
+      "variaveis": [
+        {
+          "id": "bg-footer-var",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffffffff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "footer"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-title-footer-var",
+          "tipo": "color",
+          "titulo": "Cor dos títulos",
+          "titulo_subgrupo": "Cores",
+          "padrao": "444444ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "footer"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-subtitle-footer-var",
+          "tipo": "color",
+          "titulo": "Cor dos textos",
+          "titulo_subgrupo": "Cores",
+          "padrao": "444444ff",
+          "pref_dependency_id": null,
+          "objetos": [
+            "footer"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Geral",
+      "variaveis": [
+        {
+          "id": "font-body",
+          "tipo": "font-family",
+          "titulo": "Fonte do site",
+          "titulo_subgrupo": "Site",
+          "padrao": "Lato",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": []
+        },
+        {
+          "id": "bg-body",
+          "tipo": "color",
+          "titulo": "Cor do fundo",
+          "titulo_subgrupo": "Site",
+          "padrao": "FFFFFF",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Tarjas",
+      "variaveis": [
+        {
+          "id": "bg-tarja-prod-var",
+          "tipo": "color",
+          "titulo": "Fundo da tarja",
+          "titulo_subgrupo": "Cores",
+          "padrao": "006cff0d",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-tarja-prod-var",
+          "tipo": "color",
+          "titulo": "Texto da tarja ",
+          "titulo_subgrupo": "Cores",
+          "padrao": "006cffff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Setas",
+      "variaveis": [
+        {
+          "id": "bg-arrows-var",
+          "tipo": "color",
+          "titulo": "Fundo das setas",
+          "titulo_subgrupo": "Cores",
+          "padrao": "F84343",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-arrows-var",
+          "tipo": "color",
+          "titulo": "Cor das setas",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffffffff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Botão principal",
+      "variaveis": [
+        {
+          "id": "bg-button-buyNow-var",
+          "tipo": "color",
+          "titulo": "Cor de fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "b61313ff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-button-buyNow-var",
+          "tipo": "color",
+          "titulo": "Cor da fonte",
+          "titulo_subgrupo": "Cores",
+          "padrao": "FFFFFF",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "typeBorder-button-buyNow-var",
+          "tipo": "option",
+          "titulo": "Estilo da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "none",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "Sem borda|none",
+            "Sólido|solid",
+            "Tracejado|dashed",
+            "Pontilhado|dotted"
+          ]
+        },
+        {
+          "id": "sizeBorder-button-buyNow-var",
+          "tipo": "number",
+          "titulo": "Tamanho da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "1",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": "px",
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "radiusBorder-button-buyNow-var",
+          "tipo": "number",
+          "titulo": "Arredondamento da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "1",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": "px",
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "colorBorder-button-buyNow-var",
+          "tipo": "color",
+          "titulo": "Cor da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "ffffff00",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Botão secundário",
+      "variaveis": [
+        {
+          "id": "bg-button-buyLater-var",
+          "tipo": "color",
+          "titulo": "Cor de fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "499b03ff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-button-buyLater-var",
+          "tipo": "color",
+          "titulo": "Cor da fonte",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffffff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "typeBorder-button-buyLater-var",
+          "tipo": "option",
+          "titulo": "Estilo da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "none",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "Sem borda|none",
+            "Sólido|solid",
+            "Tracejado|dashed",
+            "Pontilhado|dotted"
+          ]
+        },
+        {
+          "id": "sizeBorder-button-buyLater-var",
+          "tipo": "number",
+          "titulo": "Tamanho da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "1",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": "px",
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "radiusBorder-button-buyLater-var",
+          "tipo": "number",
+          "titulo": "Arredondamento da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "1",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": "px",
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "colorBorder-button-buyLater-var",
+          "tipo": "color",
+          "titulo": "Cor da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "ffffff00",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "Botão auxiliar",
+      "variaveis": [
+        {
+          "id": "bg-button-others-var",
+          "tipo": "color",
+          "titulo": "Cor de fundo",
+          "titulo_subgrupo": "Cores",
+          "padrao": "444444ff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "color-button-others-var",
+          "tipo": "color",
+          "titulo": "Cor da fonte",
+          "titulo_subgrupo": "Cores",
+          "padrao": "ffffffff",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "typeBorder-button-others-var",
+          "tipo": "option",
+          "titulo": "Estilo da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "none",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "Sem borda|none",
+            "Sólido|solid",
+            "Tracejado|dashed",
+            "Pontilhado|dotted"
+          ]
+        },
+        {
+          "id": "sizeBorder-button-others-var",
+          "tipo": "number",
+          "titulo": "Tamanho da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "1",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": "px",
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "radiusBorder-button-others-var",
+          "tipo": "number",
+          "titulo": "Arredondamento da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "1",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": "px",
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        },
+        {
+          "id": "colorBorder-button-others-var",
+          "tipo": "color",
+          "titulo": "Cor da borda",
+          "titulo_subgrupo": "Borda",
+          "padrao": "B61313",
+          "pref_dependency_id": null,
+          "objetos": null,
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "grupo": "HiddenValues",
+      "variaveis": [
+        {
+          "id": "mobileHasBeenEdited-var",
+          "tipo": "option",
+          "titulo": "Mobile Foi Editado",
+          "titulo_subgrupo": "Opções",
+          "padrao": "false",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "flex",
+            "none"
+          ]
+        },
+        {
+          "id": "hasnewsletter-var",
+          "tipo": "option",
+          "titulo": "Mobile Tem Newsletter",
+          "titulo_subgrupo": "Opções",
+          "padrao": "none",
+          "pref_dependency_id": null,
+          "objetos": [
+            "none"
+          ],
+          "un": null,
+          "min": 0,
+          "max": 0,
+          "opcoes": [
+            "false",
+            "true"
+          ]
+        }
+      ]
+    }
+  ],
+  "PreferenciasSets": [
+    {
+      "id": "bg-header-var",
+      "tipo": "color",
+      "legenda": null,
+      "valor": "ffffffff"
+    },
+    {
+      "id": "color-header-var",
+      "tipo": "color",
+      "valor": "000000ff",
+      "legenda": null
+    },
+    {
+      "id": "bg-input-header-var",
+      "tipo": "color",
+      "valor": "f1f1f1",
+      "legenda": null
+    },
+    {
+      "id": "color-input-header-var",
+      "tipo": "color",
+      "valor": "000000ff",
+      "legenda": null
+    },
+    {
+      "id": "bg-menu-var",
+      "tipo": "color",
+      "valor": "ffffff",
+      "legenda": null
+    },
+    {
+      "id": "color-menu-var",
+      "tipo": "color",
+      "valor": "fffffff",
+      "legenda": null
+    },
+    {
+      "id": "bg-hover-menu-var",
+      "tipo": "color",
+      "valor": "444444",
+      "legenda": null
+    },
+    {
+      "id": "color-hover-menu-var",
+      "tipo": "color",
+      "valor": "ffffff",
+      "legenda": null
+    },
+    {
+      "id": "bg-condition-var",
+      "tipo": "color",
+      "valor": "ffffff",
+      "legenda": null
+    },
+    {
+      "id": "color-icon-condition-var",
+      "tipo": "color",
+      "valor": "F84343",
+      "legenda": null
+    },
+    {
+      "id": "color-title-condition-var",
+      "tipo": "color",
+      "valor": "393939ff",
+      "legenda": null
+    },
+    {
+      "id": "color-subtitle-condition-var",
+      "tipo": "color",
+      "valor": "393939ff",
+      "legenda": null
+    },
+    {
+      "id": "photowrap-var",
+      "tipo": "option",
+      "valor": "1/1",
+      "legenda": null
+    },
+    {
+      "id": "prodperline-var",
+      "tipo": "option",
+      "valor": "4",
+      "legenda": null
+    },
+    {
+      "id": "prodperline-categorie-var",
+      "tipo": "option",
+      "valor": "3",
+      "legenda": null
+    },
+    {
+      "id": "mobileHasBeenEdited-var",
+      "tipo": "option",
+      "valor": "false",
+      "legenda": null
+    },
+    {
+      "id": "prodbutton-var",
+      "tipo": "option",
+      "valor": "false",
+      "legenda": null
+    },
+    {
+      "id": "bg-prod-list-var",
+      "tipo": "color",
+      "valor": "ffffff",
+      "legenda": null
+    },
+    {
+      "id": "color-title-prod-list-var",
+      "tipo": "color",
+      "valor": "393939",
+      "legenda": null
+    },
+    {
+      "id": "color-subtitle-prod-list-var",
+      "tipo": "color",
+      "valor": "393939",
+      "legenda": null
+    },
+    {
+      "id": "bg-manufacturer-var",
+      "tipo": "color",
+      "valor": "FFFFFF",
+      "legenda": null
+    },
+    {
+      "id": "bg-newsletter-var",
+      "tipo": "color",
+      "valor": "ffe5e5ff",
+      "legenda": null
+    },
+    {
+      "id": "color-title-newsletter-var",
+      "tipo": "color",
+      "valor": "393939",
+      "legenda": null
+    },
+    {
+      "id": "color-subtitle-newsletter-var",
+      "tipo": "color",
+      "valor": "393939",
+      "legenda": null
+    },
+    {
+      "id": "bg-input-newsletter-var",
+      "tipo": "color",
+      "valor": "FFFFFF",
+      "legenda": null
+    },
+    {
+      "id": "color-input-newsletter-var",
+      "tipo": "color",
+      "valor": "393939",
+      "legenda": null
+    },
+    {
+      "id": "bg-footer-var",
+      "tipo": "color",
+      "valor": "F84343",
+      "legenda": null
+    },
+    {
+      "id": "color-title-footer-var",
+      "tipo": "color",
+      "valor": "ffffffff",
+      "legenda": null
+    },
+    {
+      "id": "color-subtitle-footer-var",
+      "tipo": "color",
+      "valor": "ffffff",
+      "legenda": null
+    },
+    {
+      "id": "font-body",
+      "tipo": "font-type",
+      "valor": "Arial",
+      "legenda": null
+    },
+    {
+      "id": "bg-body",
+      "tipo": "color",
+      "valor": "FFFFFF",
+      "legenda": null
+    },
+    {
+      "id": "bg-tarja-prod-var",
+      "tipo": "color",
+      "valor": "b61313ff",
+      "legenda": null
+    },
+    {
+      "id": "color-tarja-prod-var",
+      "tipo": "color",
+      "valor": "ffffffff",
+      "legenda": null
+    },
+    {
+      "id": "bg-arrows-var",
+      "tipo": "color",
+      "valor": "F84343",
+      "legenda": null
+    },
+    {
+      "id": "color-arrows-var",
+      "tipo": "color",
+      "valor": "ffffffff",
+      "legenda": null
+    },
+    {
+      "id": "bg-button-buyNow-var",
+      "tipo": "color",
+      "valor": "b61313ff",
+      "legenda": null
+    },
+    {
+      "id": "color-button-buyNow-var",
+      "tipo": "color",
+      "valor": "FFFFFF",
+      "legenda": null
+    },
+    {
+      "id": "typeBorder-button-buyNow-var",
+      "tipo": "option",
+      "valor": "none",
+      "legenda": null
+    },
+    {
+      "id": "sizeBorder-button-buyNow-var",
+      "tipo": "number",
+      "valor": "1",
+      "legenda": null
+    },
+    {
+      "id": "radiusBorder-button-buyNow-var",
+      "tipo": "number",
+      "valor": "1",
+      "legenda": null
+    },
+    {
+      "id": "colorBorder-button-buyNow-var",
+      "tipo": "color",
+      "valor": "000000",
+      "legenda": null
+    },
+    {
+      "id": "bg-button-buyLater-var",
+      "tipo": "color",
+      "valor": "F84343",
+      "legenda": null
+    },
+    {
+      "id": "color-button-buyLater-var",
+      "tipo": "color",
+      "valor": "ffffff",
+      "legenda": null
+    },
+    {
+      "id": "typeBorder-button-buyLater-var",
+      "tipo": "option",
+      "valor": "none",
+      "legenda": null
+    },
+    {
+      "id": "sizeBorder-button-buyLater-var",
+      "tipo": "number",
+      "valor": "1",
+      "legenda": null
+    },
+    {
+      "id": "radiusBorder-button-buyLater-var",
+      "tipo": "number",
+      "valor": "1",
+      "legenda": null
+    },
+    {
+      "id": "colorBorder-button-buyLater-var",
+      "tipo": "color",
+      "valor": "00000000",
+      "legenda": null
+    },
+    {
+      "id": "bg-button-others-var",
+      "tipo": "color",
+      "valor": "FFFFFF",
+      "legenda": null
+    },
+    {
+      "id": "color-button-others-var",
+      "tipo": "color",
+      "valor": "B61313",
+      "legenda": null
+    },
+    {
+      "id": "typeBorder-button-others-var",
+      "tipo": "option",
+      "valor": "none",
+      "legenda": null
+    },
+    {
+      "id": "sizeBorder-button-others-var",
+      "tipo": "number",
+      "valor": "1",
+      "legenda": null
+    },
+    {
+      "id": "radiusBorder-button-others-var",
+      "tipo": "number",
+      "valor": "1",
+      "legenda": null
+    },
+    {
+      "id": "colorBorder-button-others-var",
+      "tipo": "color",
+      "valor": "B61313",
+      "legenda": null
+    },
+    {
+      "id": "new-menu-color-var",
+      "tipo": "color",
+      "valor": "444444ff",
+      "legenda": null
+    },
+    {
+      "id": "hasnewsletter-var",
+      "tipo": "option",
+      "valor": "none",
+      "legenda": null
+    }
+  ],
+  "flex_prefs": {
+    "dynamicTemplates": [
+      {
+        "element": "top-conditions",
+        "label": "Condições do topo",
+        "ws-targets": [
+          ".top-conditions"
+        ],
+        "ws-groups": [
+          {
+            "ws-group-label": "Cores",
+            "ws-group-inputs": [
+              {
+                "type": "color",
+                "properties": "background-color",
+                "label": "Cor do fundo"
+              },
+              {
+                "type": "color",
+                "properties": "color",
+                "label": "Cor da fonte",
+                "subQueries": [
+                  ".condicoes-loja .condicao-titulo",
+                  ".condicoes-loja .condicao-subtitulo"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "element": "menu",
+        "label": "Categorias do topo",
+        "ws-targets": [
+          ".categories-header"
+        ],
+        "ws-groups": []
+      },
+      {
+        "element": "newsletter",
+        "label": "Newsletter do rodapé",
+        "ws-targets": [
+          "footer .newsletter-holder-ws"
+        ],
+        "ws-groups": [
+          {
+            "ws-group-label": "Campos",
+            "ws-group-inputs": [
+              {
+                "type": "color",
+                "properties": "background-color",
+                "label": "Cor do fundo",
+                "subQueries": [
+                  "input",
+                  "#newsletter > .input-container input:focus + label"
+                ]
+              },
+              {
+                "type": "color",
+                "properties": "color",
+                "label": "Cor da fonte",
+                "subQueries": [
+                  "input",
+                  "#newsletter > .input-container input:focus + label"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

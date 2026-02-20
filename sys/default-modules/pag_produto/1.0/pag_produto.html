@@ -1,0 +1,202 @@
+<section id="produto" class="container" itemscope="" itemtype="http://schema.org/Product">
+    <div class="row">
+        <div class="col-xs-12 div-migalha page-produto">
+            <ul id="lista-migalha"></ul>
+        </div>
+        <div id="div-conteudo" class="col-xs-12">
+            <div class="row">
+                <div class="dados-produto-mobile">
+                    <h2 itemprop="name"><!--##NOME_PRODUTO##--></h2>
+                    <p class="codigo-produto" itemprop="sku">C&oacute;d.: <!--##REF_PRODUTO##--></p>
+                    <p class="fabricante-produto" itemprop="brand"><!--##FABR_LINK##--></p>
+                </div>
+                <div class="col-md-6 col-sm-5 col-xs-12 foto-holder">
+                    <div id="fotos-produto" class="loading">
+                        <span data-wbstr-fotos></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-7 col-xs-12">
+                    <div class="dados-produto">
+                        <h1 class="hidden-xs" itemprop="name"><!--##NOME_PRODUTO##--></h1>
+                        <div class="options-product" id="options-product">
+                            <span data-favorites-icone></span>
+                            <div class="share-produto" id="share-produto">
+                                <a href="javascript:void(showShareLista())" class="link-share-lista"><i class="fa fa-share-alt"></i></a>
+                                <ul class="share-lista" id="share-lista">
+                                    <li class="Face">
+                                        <a id="share-facebook" href="#" title="Facebook" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="Twitter">
+                                        <a id="share-twitter" href="#" title="Twitter" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="Gplus">
+                                        <a id="share-gplus" href="#" title="Google Plus" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li class="Whats">
+                                        <a id="share-whats" href="#" title="Whatsapp" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                                            <i class="fa fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li class="Mail">
+                                        <a id="share-mail" href="#" title="Compartilhar via e-mail" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="lista-de-desejo hidden hidden-xs">
+                            <a href="javascript:void(FuncaoAddListDesejo())" class="LV_LINK_LISTA_DESEJOS" id="LV_LINK_LISTA_DESEJOS">
+                                <i class="fa fa-heart-o"></i> Adicionar aos favoritos
+                            </a>
+                        </span>
+                        <p id="codigo-produto" class="hidden-xs">C&oacute;d.: <!--##REF_PRODUTO##--></p>
+                        <p id="fabricante-produto" class="hidden-xs"><!--##FABR_LINK##--></p>
+                    </div>
+                    <div class="add-produto">
+                        <span data-wbstr-add></span>
+                    </div>
+                    <div class="descricao-breve">
+                        <span data-wbstr-breve></span>
+                        <div class="avaliacao-produto" itemprop="aggregateRating">
+                            <!--##TRUSTVOX_STAR##-->
+                        </div>
+                    </div>
+                    <div class="row info-produto">
+                        <div id="preco-produto" class="no-gutter col-md-5 col-xs-12" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                            <span data-wbstr-preco></span>
+                            <meta itemprop='priceCurrency' content='BRL' />
+                            <span data-mod-whatsapp-button-buy-2></span>
+                        </div>
+                        <div id="clockdiv">
+                            <div>
+                                <span>PromoÃ§Ã£o vÃ¡lida por</span>
+                                <div id="clockday">
+                                    <span class="days"></span>
+                                    <div class="smalltext">Dias</div>
+                                </div>
+                                <div id="clockhour">
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Horas</div>
+                                </div>
+                                <div id="clockminute">
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Minutos</div>
+                                </div>
+                                <div id="clocksecond">
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Segundos</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="kits-produto" class="kits-produto" data-kit-produto></div>
+                        <div id="botao-comprar-produto" class="no-gutter col-md-7 col-xs-12">
+                            <div class="sub-produtos"><!--##PRECO_GENERO##--></div>
+                            <div class="sub-produtos" id="DivCamposAdd"><!--##CAMPOS_ADICIONAIS##--></div>
+                            <div class="input-qtd">
+                                <input type="number" name="qtd-carrinho" class="qtd-carrinho" id="TxtQtdAdd" value="1" min="1"><span>Qtd</span>
+                            </div>
+                            <!--##BOTAO_COMPRAR##-->
+                            <span data-mod-whatsapp-button-buy></span>
+                            <span data-wbstr-infos></span>
+                        </div>
+                    </div>
+                    <span data-wbstr-parcelas></span>
+                    <div id="calcula-frete" class="calculo-frete-produto">
+                        <!--##CALCULO_FRETE_PRODUTO##-->
+                    </div>
+                    <div class="hidden">
+                        <label for="input-frete">Calculo do frete</label>
+                        <fieldset>
+                            <input type="text" id="input-frete" placeholder="Insira seu CEP">
+                            <input type="button" id="submit-frete" value="Calcular frete">
+                        </fieldset>
+                    </div>
+                    <div id="DivShowCalculoFrete"></div>
+                </div>
+            </div>
+            <div class="modal fade" id="zoomModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <span data-wbstr-zoom></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="produtos-relacionados" class="sem-slider div-grupo col-xs-12 no-gutter">
+            <div class="titulo-grupo">
+                <h3>Produtos relacionados</h3>
+                <span class="arrow">
+                    <i class="fa fa-angle-left left-arrow"></i>
+                    <i class="fa fa-angle-right right-arrow"></i>
+                </span>
+            </div>
+            <ul id="lista-relacionados">
+                <li class="list-item <!--##CLASS##-->">
+                    <div class="div-item">
+                        <div class="prod-img">
+                            <!--##FOTO##-->
+                            <!--##DESTAQUE##-->
+                        </div>
+                        <div class="prod-info">
+                            <!--##ADD##-->
+                            <!--##NOME##-->
+                            <p class="prod-fabricante"><!--##FAB##--></p>
+                            <p class="prod-preco"><!--##PRECO##--></p>
+                            <div class="variacao-preco">
+                                <div class="holder">
+                                    <!--##VEZES##-->
+                                    <!--##UMA##-->
+                                </div>
+                            </div>
+                            <!--##COMPRAR##-->
+                            <p class="prod-mais"><!--##MAIS##--></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="descricoes" class="col-xs-12 descricoes-produto" itemprop="description">
+            <ul class="nav nav-tabs hidden-xs" role="tablist">
+                <span data-wbstr-tablist></span>
+            </ul>
+            <div class="tab-content hidden-xs">
+                <span data-wbstr-tabcontent></span>
+            </div>
+            <span data-wbstr-accordion></span>
+            <span data-wbstr-outro></span>
+            <div id="div-trustvox" class="col-xs-12" itemprop="reviewRating">
+                <!--##TRUSTVOX##-->
+                <!--##SELO_TRUSTVOX##-->
+            </div>
+        </div>
+        <div id="produtos-compre-junto" class="div-grupo col-xs-12 no-gutter">
+            <!--##COMPRE_JUNTO_V2##-->
+        </div>
+        <div id="preco-flutua" class="hidden">
+            <span onclick="toggleFlutua()" class=""></span>
+            <div class="div-item">
+                <div class="prod-img">
+                    <span data-wbstr-foto-flutua></span>
+                </div>
+                <div class="prod-info">
+                    <div class="variacao-preco">
+                        <span data-wbstr-preco></span>
+                    </div>
+                    <!--##BOTAO_COMPRAR##-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

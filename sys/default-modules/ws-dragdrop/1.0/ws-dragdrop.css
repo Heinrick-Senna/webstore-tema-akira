@@ -1,0 +1,198 @@
+/* ADICIONAR AO MAIN */
+[data-wsjs-draginner] > section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  transition: top .3s, font-size 0s;
+}
+
+[data-wsjs-draginner] .banner-full-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+[data-wsjs-draginner] .banner-full-section .not-container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="condicoes"] {
+  padding: 50px 0;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="prodSlide"],
+[data-wsjs-draginner] [data-wsjs-sectype="prodList"] {
+  padding: 100px 0;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="manufacturer"] {
+  padding: 30px 0;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="newsletter"] {
+  padding: 50px 0;
+}
+
+.text-content p, h2 {
+  width: 100%;
+}
+
+.text-content p {
+  color: var(--color-subtitle-newsletter);
+}
+
+.text-content h1, .text-content h2, .text-content h3, .text-content h4 {
+  color: var(--color-title-newsletter);
+}
+
+.image-holder-ws.reversed,
+.video-holder-ws.reversed,
+.newsletter-holder-ws.reversed {
+  flex-direction: row-reverse;
+}
+
+.video-holder-ws.reversed > .video-content,
+.image-holder-ws.reversed > .image-content,
+.newsletter-holder-ws.reversed > form {
+  order: -1;
+}
+
+
+.image-holder-ws,
+.video-holder-ws,
+.newsletter-holder-ws {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mobile-inner .image-holder-ws,
+.mobile-inner .video-holder-ws,
+.mobile-inner .newsletter-holder-ws {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.image-holder-ws > div,
+.video-holder-ws > div,
+.newsletter-holder-ws > div,
+.newsletter-holder-ws > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 5px;
+}
+
+.image-holder-ws .image-content .image-cache + .image-label,
+.image-holder-ws .image-content .image-load + .image-label,
+.video-holder-ws .video-content .video-load + .video-label {
+  display: none;
+}
+
+.video-holder-ws .video-content .video-load + .video-label {
+  opacity: 0;
+  width: 100%;
+  display: block;
+  height: 100%;
+  position: absolute;
+}
+
+
+.video-holder-ws .video-content .video-load {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-holder-ws .video-content .video-load iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.image-holder-ws .image-content .image-label,
+.video-holder-ws .video-content .video-label {
+  text-align: center;
+  padding: 100px;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px dashed #D8D8D8;
+  z-index: 2;
+}
+
+.image-holder-ws .image-content .image-label > div,
+.video-holder-ws .video-content .video-label > div {
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: #0088ff;
+  color: #FFF;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: .3s, font-size 0s;
+}
+
+.image-holder-ws .image-content .image-label:hover > div,
+.video-holder-ws .video-content .video-label:hover > div {
+  opacity: .8;
+} 
+
+.image-holder-ws img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation-name: fadeInImage;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+}
+
+[data-wsjs-draginner] [data-wsjs-newsletter] > div {
+  width: 100%;
+}
+
+.mobile-inner .prod-showcase-holder {
+  padding: 1rem;
+}
+
+[data-wsjs-sectype="prodSlide"] section.prod-list:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="newsletter"], [data-wsjs-draginner] [data-wsjs-sectype="image"], [data-wsjs-draginner] [data-wsjs-sectype="video"] {
+  background: var(--bg-newsletter);
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="manufacturer"] h2 {
+  margin-bottom: 1rem;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="manufacturer"] p {
+  margin-bottom: 3rem;
+}
+
+[data-wsjs-draginner] [data-wsjs-sectype="manufacturer"] h2, [data-wsjs-draginner] [data-wsjs-sectype="manufacturer"] p {
+  text-align: center;
+}
+
+.text-content h2, p {
+  width: 100%;
+}
+
+@keyframes fadeInImage {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}

@@ -1,0 +1,2002 @@
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br" dir="ltr"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="https://www.organicsstore.com.br">
+ <link rel="shortcut icon" href="https://imageswscdn.wslojas.com.br/files/25372/fav.png?v=1613710712" type="image/png" /><title>Home|Organics Store</title>
+  
+<style data-shopify>@font-face {
+  font-family: Oswald;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("./Fonts/oswald.woff2?h1=aW1wdWxzZS10aGVtZS1zcG9ydHMuYWNjb3VudC5teXNob3BpZnkuY29t&amp;hmac=b15dca9681c0234492ff65bfd5aecbeb29627026ac1f64775c3a45aa3d731501") format("woff2"),
+       url("./Fonts/oswald.woff?h1=aW1wdWxzZS10aGVtZS1zcG9ydHMuYWNjb3VudC5teXNob3BpZnkuY29t&amp;hmac=e28bb28513ad83163ca2b2f3b11c873dedce32165cac63aea49cd7bdf6166f42") format("woff");
+}
+@font-face {
+  font-family: "ITC Conduit";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("./Fonts/conduititc.woff2?h1=aW1wdWxzZS10aGVtZS1zcG9ydHMuYWNjb3VudC5teXNob3BpZnkuY29t&amp;hmac=bf4013167f59a52154ca60b1623b220f239e70b06506851c19fe44b1bc817b61") format("woff2"),
+       url("./Fonts/itcconduit.woff?h1=aW1wdWxzZS10aGVtZS1zcG9ydHMuYWNjb3VudC5teXNob3BpZnkuY29t&amp;hmac=c11232eb0412b4dc8a24a3119014d160a174b0f82c4c1987517dfe0f5413c12e") format("woff");
+}
+
+/* Ajuste específico para o dropdown 'Conheça' */
+.site-nav__conheça .megamenu {
+  min-width: 200px;      /* Define uma largura mínima menor */
+  width: auto !important; /* Cancela a largura total (100%) do mega menu */
+  left: 0 !important;    /* Alinha a caixa à esquerda do botão pai */
+  right: auto !important;
+  padding: 20px !important; /* Espaçamento interno da caixa preta */
+}
+
+/* Remove o sistema de grid que está jogando o texto para o lado */
+.site-nav__conheça .grid {
+  display: block !important;
+  margin: 0 !important;
+}
+
+.site-nav__conheça .grid__item {
+  width: 100% !important;
+  padding: 0 !important;
+  text-align: left !important; /* Garante o alinhamento à esquerda do texto */
+}
+
+/* Ajuste dos links individuais */
+.site-nav__conheça .site-nav__dropdown-link {
+  padding: 8px 0 !important;
+  display: block;
+}
+
+/* Ajuste para que o dropdown apareça logo abaixo do nome */
+.site-nav__conheça {
+  position: relative !important;
+}/* Remove o espaço excessivo no topo do dropdown */
+.site-nav__conheça .megamenu {
+  padding-top: 10px !important; /* Ajuste este valor para subir mais ou menos */
+}
+
+/* Garante que o container interno não tenha margens fantasmas */
+.site-nav__conheça .page-width, 
+.site-nav__conheça .grid,
+.site-nav__conheça .grid__item {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Ajuste fino no primeiro link */
+.site-nav__conheça .grid__item div:first-child a {
+  padding-top: 5px !important;
+}
+/* 1. Remove o padding de topo da caixa preta */
+.site-nav__conheça .megamenu {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* 2. Remove o espaço da máscara de imagem (que está vazia mas ocupando lugar) */
+.site-nav__conheça .svg-mask--landscape {
+  display: none !important;
+}
+
+/* 3. Zera as margens e paddings dos containers de grid */
+.site-nav__conheça .page-width,
+.site-nav__conheça .grid,
+.site-nav__conheça .grid__item {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  top: 0 !important;
+}
+
+/* 4. Ajuste fino no primeiro link para ele "colar" no topo */
+.site-nav__conheça .grid__item div:first-child a {
+  padding-top: 15px !important; /* Espaço mínimo apenas para não encostar na borda */
+}
+/* Ajuste para o fundo acompanhar o tamanho do texto apenas no Conheça */
+.site-nav__conheça .megamenu {
+    width: auto !important;          /* Faz a largura ser definida pelo conteúdo */
+    min-width: max-content !important; /* Garante que a caixa tenha o tamanho do maior texto */
+    max-width: 300px !important;      /* Limite máximo para não ficar largo demais */
+    left: 0 !important;               /* Alinha com o início da palavra Conheça */
+    right: auto !important;           /* Desativa a expansão para o lado direito da tela */
+    padding: 0 !important;
+}
+
+/* Remove as larguras fixas internas que o tema Impulse impõe */
+.site-nav__conheça .page-width {
+    width: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.site-nav__conheça .grid {
+    display: block !important; /* Remove o sistema de colunas */
+    margin: 0 !important;
+}
+
+.site-nav__conheça .grid__item {
+    width: auto !important;
+    padding: 10px 25px !important; /* Respiro interno nas laterais do texto */
+}
+
+/* Garante que o texto fique em uma linha só e não quebre */
+.site-nav__conheça .site-nav__dropdown-link {
+    white-space: nowrap !important; 
+    display: block !important;
+    padding: 5px 0 !important;
+}
+/* Centraliza o bloco de navegação no header */
+.header-item--navigation {
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important; /* Faz o container ocupar o espaço central */
+    display: flex !important;
+    justify-content: center !important; /* Alinha o conteúdo (ul) ao centro */
+}
+
+/* Garante que a lista de links não tenha margens que empurrem para o lado */
+.site-nav {
+    margin: 0 auto !important;
+    display: inline-flex !important;
+}
+
+/* Ajuste para que o dropdown do 'Conheça' não saia do lugar com a centralização */
+.site-nav__conheça {
+    position: relative !important;
+}
+
+/* Centralização Real para o Tema Impulse */
+
+/* 1. Força o container pai a usar 100% da largura e alinhar em linha */
+.header-layout {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* 2. Neutraliza as larguras fixas das colunas laterais */
+.header-item--logo, 
+.header-item--icons {
+    flex: 0 0 150px !important; /* Define um tamanho fixo para as pontas */
+    width: 150px !important;
+    min-width: 150px !important;
+}
+
+/* 3. Faz o bloco do menu ocupar todo o centro e alinhar no meio */
+.header-item--navigation {
+    flex: 1 1 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+/* 4. Garante que a lista de links não tenha floats ou margens laterais */
+.site-nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* 5. Ajuste para os itens ficarem próximos um do outro no centro */
+.site-nav__item {
+    float: none !important;
+    display: inline-block !important;
+    margin: 0 10px !important;
+}/* 1. Reset do container de navegação para não puxar ícones */
+.header-item--navigation {
+    position: static !important; /* Libera a lupa e o carrinho */
+    flex: 1 1 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* 2. Centraliza apenas a lista de links (Produtos e Conheça) */
+.site-nav {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    display: flex !important;
+    white-space: nowrap !important;
+}
+
+/* 3. PROTEÇÃO DO MENU PRODUTOS: Garante que ele continue abrindo na tela toda */
+.site-nav--is-megamenu .megamenu {
+    width: 100vw !important;
+    left: calc(-50vw + 50%) !important; /* Ajuste matemático para centralizar o megamenu gigante */
+    min-width: 100vw !important;
+}
+
+/* 4. MANTÉM O MENU CONHEÇA PEQUENO: Usa a regra que funcionou antes */
+.site-nav__conheça .megamenu {
+    width: auto !important;
+    min-width: max-content !important;
+    left: 0 !important;
+    transform: none !important; /* Evita que o dropdown herde o centro da página */
+    right: auto !important;
+}
+
+/* Header vira referência real */
+.site-header {
+  position: relative !important;
+}
+
+/* Garante que o container de ícones use o espaço disponível à direita */
+.header-item--icons {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex: 0 0 150px !important; /* Ajusta a largura da área dos ícones */
+}
+
+/* Garante que o layout do header distribua o espaço corretamente */
+.header-layout {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+/* Esconde a barra de busca por padrão */
+.site-header__search-container {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    background: #fff;
+    z-index: 1000;
+}
+
+/* Classe que será adicionada via JS para mostrar a busca */
+.search-is-open .site-header__search-container {
+    display: block !important;
+}
+
+/* Alinha o grupo de ícones à direita */
+
+</style>
+
+<link href="./theme.css?v=32904044628463378861716941384" rel="stylesheet" type="text/css" media="all" />
+<link href="./Assets/busca.css" rel="stylesheet" type="text/css" media="all">
+<style data-shopify>:root {
+    --typeHeaderPrimary: Oswald;
+    --typeHeaderFallback: sans-serif;
+    --typeHeaderSize: 56px;
+      --header-height: 120px;
+    --typeHeaderWeight: 400;
+    --typeHeaderLineHeight: 1.2;
+    --typeHeaderSpacing: 0.0em;
+    --typeBasePrimary:"ITC Conduit";
+    --typeBaseFallback:sans-serif;
+    --typeBaseSize: 18px;
+    --typeBaseWeight: 400;
+    --typeBaseSpacing: 0.05em;
+    --typeBaseLineHeight: 1.3;
+    --typeBaselineHeightMinus01: 1.2;
+    --typeCollectionTitle: 23px;
+    --iconWeight: 5px;
+    --iconLinecaps: miter;  
+    --buttonRadius: 0;
+    --colorGridOverlayOpacity: 0.1;}
+    .placeholder-content {
+    background-image: linear-gradient(100deg, #000000 40%, #000000 63%, #000000 79%);
+    }</style>
+
+<script>
+  function carregarHTML(id, arquivo) {
+    fetch(arquivo)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Erro ao carregar ' + arquivo);
+        }
+        return response.text();
+      })
+      .then(html => {
+        document.getElementById(id).innerHTML = html;
+      })
+      .catch(err => {
+        console.error(err);
+      });
+  }
+
+
+  carregarHTML('rodape', 'rodape.html');
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const toggle = document.querySelector('.js-search-toggle'); // a lupa
+  const searchBox = document.getElementById('searchHeader'); // div oculta
+  const input = document.getElementById('input-busca'); // campo de input
+
+  if (!toggle || !searchBox) return;
+
+  toggle.addEventListener('click', function () {
+    searchBox.classList.toggle('search-header--hidden'); // mostra/oculta
+    if (!searchBox.classList.contains('search-header--hidden')) {
+      setTimeout(() => input.focus(), 100); // foca no input quando abre
+    }
+  });
+});
+</script>
+
+</head>
+
+
+
+<body class="template-collection" data-center-text="true" data-button_style="angled" data-type_header_capitalize="true" data-type_headers_align_text="true" data-type_product_capitalize="true" data-swatch_style="round" >
+
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">Skip to content</a>
+
+  <div id="PageContainer" class="page-container">
+
+<!-- BEGIN sections: header-group -->
+<div id="-section-sections--15198469455933__header" class="-section -section-group-header-group">
+
+<div id="NavDrawer" class="drawer drawer--right">
+  <div class="drawer__contents">
+    <div class="drawer__fixed-header">
+      <div class="drawer__header appear-animation appear-delay-1">
+        <div class="h2 drawer__title"></div>
+        <div class="drawer__close">
+          <button type="button" class="drawer__close-button js-drawer-close">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+            <span class="icon__fallback-text">Close menu</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="drawer__scrollable">
+      <ul class="mobile-nav mobile-nav--heading-style" role="navigation" aria-label="Primary"><li class="mobile-nav__item appear-animation appear-delay-2"><div class="mobile-nav__has-sublist"><a href="/collections/all"
+                    class="mobile-nav__link mobile-nav__link--top-level"
+                    id="Label-collections-all1"
+                    >
+                    Produtos
+                  </a>
+                  <div class="mobile-nav__toggle">
+                    <button type="button"
+                      aria-controls="Linklist-collections-all1" aria-open="true"
+                      aria-labelledby="Label-collections-all1"
+                      class="collapsible-trigger collapsible--auto-height is-open"><span class="collapsible-trigger__icon collapsible-trigger__icon--open" role="presentation">
+  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
+</span>
+</button>
+                  </div></div><div id="Linklist-collections-all1"
+                class="mobile-nav__sublist collapsible-content collapsible-content--all is-open"
+                style="height: auto;">
+                <div class="collapsible-content__inner">
+                  <ul class="mobile-nav__sublist"><li class="mobile-nav__item">
+                        <div class="mobile-nav__child-item"><a href="prod_categoria_bb.html"
+                              class="mobile-nav__link"
+                              id="Sublabel-collections-trail1"
+                              >
+                              Bodyboard
+                            </a><button type="button"
+                              aria-controls="Sublinklist-collections-all1-collections-trail1"
+                              aria-labelledby="Sublabel-collections-trail1"
+                              class="collapsible-trigger"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle collapsible-trigger__icon--open" role="presentation">
+  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
+</span>
+</button></div><div
+                            id="Sublinklist-collections-all1-collections-trail1"
+                            aria-labelledby="Sublabel-collections-trail1"
+                            class="mobile-nav__sublist collapsible-content collapsible-content--all"
+                            >
+                            <div class="collapsible-content__inner">
+                              <ul class="mobile-nav__grandchildlist"><li class="mobile-nav__item">
+                                    <a href="prod_categoria_bb_leash.html" class="mobile-nav__link">
+                                      Leash                                    </a></li><li class="mobile-nav__item">
+                                    <a href="prod_categoria_bb_todos.html" class="mobile-nav__link">
+                                      Todos                                    </a>
+                                  </li></ul>
+                          </div>
+                          </div></li><li class="mobile-nav__item">
+                        <div class="mobile-nav__child-item"><a href="prod_categoria_surf.html"
+                              class="mobile-nav__link"
+                              id="Sublabel-collections-enduro2"
+                              data-active="true">
+                              Surf
+                            </a><button type="button"
+                              aria-controls="Sublinklist-collections-all1-collections-enduro2"
+                              aria-labelledby="Sublabel-collections-enduro2"
+                              class="collapsible-trigger is-open"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle collapsible-trigger__icon--open" role="presentation">
+  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
+</span>
+</button></div><div
+                            id="Sublinklist-collections-all1-collections-enduro2"
+                            aria-labelledby="Sublabel-collections-enduro2"
+                            class="mobile-nav__sublist collapsible-content collapsible-content--all is-open"
+                            style="height: auto;">
+                            <div class="collapsible-content__inner">
+                              <ul class="mobile-nav__grandchildlist"><li class="mobile-nav__item">
+                                    <a href="prod_categoria_surf_leash.html" class="mobile-nav__link">
+                                      Leash                                    </a></li><li class="mobile-nav__item">
+                                    <a href="prod_categoria_surf_todos.html" class="mobile-nav__link" data-active="true">
+                                    Todos</a></li>
+</ul>
+                          </div>
+                          </div></li><li class="mobile-nav__item">
+                        <div class="mobile-nav__child-item"><a href="prod_categoria_kitefoil.html"
+                              class="mobile-nav__link"
+                              id="Sublabel-collections-downhill3"
+                              >
+                              Kite/Foil
+                            </a><button type="button"
+                              aria-controls="Sublinklist-collections-all1-collections-downhill3"
+                              aria-labelledby="Sublabel-collections-downhill3"
+                              class="collapsible-trigger"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle collapsible-trigger__icon--open" role="presentation">
+  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
+</span>
+</button></div><div
+                            id="Sublinklist-collections-all1-collections-downhill3"
+                            aria-labelledby="Sublabel-collections-downhill3"
+                            class="mobile-nav__sublist collapsible-content collapsible-content--all"
+                            >
+                            <div class="collapsible-content__inner">
+                              <ul class="mobile-nav__grandchildlist"><li class="mobile-nav__item">
+                                    <a href="prod_categoria_bb_todos.html" class="mobile-nav__link">
+                                      Capas
+                                    </a>
+                                  </li>
+<li class="mobile-nav__item">
+                                    <a href="/collections/downhill/products/m29fro" class="mobile-nav__link">
+                                      Todos
+                                    </a>
+                                  </li></ul>
+                            </div>
+                          </div></li><li class="mobile-nav__item">
+                        <div class="mobile-nav__child-item"><a href="/collections/bike-outlet"
+                              class="mobile-nav__link"
+                              id="Sublabel-collections-bike-outlet4"
+                              >
+                              Va'a/Sup
+                            </a><button type="button"
+                              aria-controls="Sublinklist-collections-all1-collections-bike-outlet4"
+                              aria-labelledby="Sublabel-collections-bike-outlet4"
+                              class="collapsible-trigger"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle collapsible-trigger__icon--open" role="presentation">
+  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
+</span>
+</button></div><div
+                            id="Sublinklist-collections-all1-collections-bike-outlet4"
+                            aria-labelledby="Sublabel-collections-bike-outlet4"
+                            class="mobile-nav__sublist collapsible-content collapsible-content--all"
+                            >
+                            <div class="collapsible-content__inner">
+                              <ul class="mobile-nav__grandchildlist"><li class="mobile-nav__item">
+                                    <a href="/collections/bike-outlet" class="mobile-nav__link">
+                                      Todos
+                                    </a></li></ul></div> </div></li></ul></div></div></li>
+
+
+<a href="quemsomos.html" class="mobile-nav__link mobile-nav__link--top-level">Theme Features</a></li></ul>
+<ul class="mobile-nav__social appear-animation appear-delay-2"><li class="mobile-nav__social-item">
+            <a target="_blank" rel="noopener" href="https://www.facebook.com/storeorganics" title="Organics — Organics no Facebook">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-facebook" viewBox="0 0 14222 14222"><path d="M14222 7112c0 3549.352-2600.418 6491.344-6000 7024.72V9168h1657l315-2056H8222V5778c0-562 275-1111 1159-1111h897V2917s-814-139-1592-139c-1624 0-2686 984-2686 2767v1567H4194v2056h1806v4968.72C2600.418 13603.344 0 10661.352 0 7112 0 3184.703 3183.703 1 7111 1s7111 3183.703 7111 7111Zm-8222 7025c362 57 733 86 1111 86-377.945 0-749.003-29.485-1111-86.28Zm2222 0v-.28a7107.458 7107.458 0 0 1-167.717 24.267A7407.158 7407.158 0 0 0 8222 14137Zm-167.717 23.987C7745.664 14201.89 7430.797 14223 7111 14223c319.843 0 634.675-21.479 943.283-62.013Z"/></svg>
+              <span class="icon__fallback-text">Facebook</span>
+            </a>
+          </li><li class="mobile-nav__social-item">
+            <a target="_blank" rel="noopener" href="https://www.youtube.com/user/organics" title="Organics — Organics no YouTube">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-youtube" viewBox="0 0 21 20"><path fill="#444" d="M-.196 15.803q0 1.23.812 2.092t1.977.861h14.946q1.165 0 1.977-.861t.812-2.092V3.909q0-1.23-.82-2.116T17.539.907H2.593q-1.148 0-1.969.886t-.82 2.116v11.894zm7.465-2.149V6.058q0-.115.066-.18.049-.016.082-.016l.082.016 7.153 3.806q.066.066.066.164 0 .066-.066.131l-7.153 3.806q-.033.033-.066.033-.066 0-.098-.033-.066-.066-.066-.131z"/></svg>
+              <span class="icon__fallback-text">YouTube</span>
+            </a>
+          </li><li class="mobile-nav__social-item">
+            <a target="_blank" rel="noopener" href="https://www.instagram.com/organics_oficial" title="Organics — Organics no Instagram">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-instagram" viewBox="0 0 32 32"><title>twitter</title><path fill="#444" d="M31.281 6.733q-1.304 1.924-3.13 3.26 0 .13.033.408t.033.408q0 2.543-.75 5.086t-2.282 4.858-3.635 4.108-5.053 2.869-6.341 1.076q-5.282 0-9.65-2.836.913.065 1.5.065 4.401 0 7.857-2.673-2.054-.033-3.668-1.255t-2.266-3.146q.554.13 1.206.13.88 0 1.663-.261-2.184-.456-3.619-2.184t-1.435-3.977v-.065q1.239.652 2.836.717-1.271-.848-2.021-2.233t-.75-2.983q0-1.63.815-3.195 2.38 2.967 5.754 4.678t7.319 1.907q-.228-.815-.228-1.434 0-2.608 1.858-4.45t4.532-1.842q1.304 0 2.51.522t2.054 1.467q2.152-.424 4.01-1.532-.685 2.217-2.771 3.488 1.989-.261 3.619-.978z"/></svg>
+              <span class="icon__fallback-text">Instagram</span>
+            </a>
+          </li></ul>
+    </div>
+  </div>
+</div>
+<div id="CartDrawer" class="drawer drawer--right">
+    <form id="CartDrawerForm" action="/cart" method="post" novalidate class="drawer__contents" data-location="cart-drawer">
+      <div class="drawer__fixed-header">
+        <div class="drawer__header appear-animation appear-delay-1">
+          <div class="h2 drawer__title">Cart</div>
+          <div class="drawer__close">
+            <button type="button" class="drawer__close-button js-drawer-close">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+              <span class="icon__fallback-text">Close cart</span>
+            </button></div></div></div>
+
+      <div class="drawer__inner">
+        <div class="drawer__scrollable">
+          <div data-products class="appear-animation appear-delay-2"></div></div>
+
+        <div class="drawer__footer appear-animation appear-delay-4">
+          <div data-discounts>
+ </div>
+
+          <div class="cart__item-sub cart__item-row">
+            <div class="ajaxcart__subtotal">Subtotal</div>
+            <div data-subtotal>$2,199.00</div>
+          </div>
+
+          <div class="cart__item-row text-center">
+            <small>
+              Shipping, taxes, and discount codes calculated at checkout.<br />
+            </small></div>
+          <div class="cart__checkout-wrapper">
+            <button type="submit" name="checkout" data-terms-required="false" class="btn cart__checkout">
+              Carrinho</button></div></div></div>
+
+      <div class="drawer__cart-empty appear-animation appear-delay-2">
+        <div class="drawer__scrollable">
+          Seu carrinho está vazio</div></div></form></div>
+
+<style>
+  .site-nav__link,
+  .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
+    font-size: 18px;
+  }
+   
+
+ .site-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  background: transparent; 
+}
+
+.site-header {
+border-bottom: 1px solid #757778 ;
+
+.header-sticky-wrapper {
+  position: static !important;
+  height: auto !important;
+} 
+body {
+  padding-top: 88px; /* ajuste fino se necessário */
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 72px;
+  }
+}
+
+.site-header .page-width {
+  max-width: 1200px; /* use o mesmo valor do tema */
+  margin: 0 auto;
+  border-bottom: 1px solid #757778 ;
+}
+    .toolbar + .header-sticky-wrapper .site-header {
+      border-top: 0;
+    }
+
+/* Força a exibição da linha horizontal no fundo do cabeçalho */
+.-section-group-header-group {
+    border-bottom: 1px solid #757778 !important;
+}
+
+/* Garante que o fundo do cabeçalho não esconda a borda */
+.site-header {
+    border-bottom: 1px solid #red !important;
+    background-clip: padding-box !important;
+}
+
+/* Remove sombras que possam estar a causar conflito visual */
+.header-wrapper, .site-header {
+    box-shadow: none !important;
+    border-top: none !important;
+}
+
+
+</style>
+
+<div data-section-id="sections--15198469455933__header" data-section-type="header"><div class="toolbar small--hide">
+  <div class="page-width">
+         
+<div class="header-sticky-wrapper">
+    <div id="HeaderWrapper" class="header-wrapper"><header
+        id="SiteHeader"
+        class="site-header site-header--heading-style"
+        data-sticky="true"
+        data-overlay="false">
+        <div class="page-width">
+          <div
+            class="header-layout header-layout--left-center"
+            data-logo-align="left"><div class="header-item header-item--logo"><style data>.header-item--logo,
+    .header-layout--left-center .header-item--logo,
+    .header-layout--left-center .header-item--icons {
+      -webkit-box-flex: 0 1 110px;
+      -ms-flex: 0 1 110px;
+      flex: 0 1 110px;
+    }
+
+    @media only screen and (min-width: 769px) {
+      .header-item--logo,
+      .header-layout--left-center .header-item--logo,
+      .header-layout--left-center .header-item--icons {
+        -webkit-box-flex: 0 0 140px;
+        -ms-flex: 0 0 140px;
+        flex: 0 0 140px;
+      }
+    }
+
+    .site-header__logo a {
+      width: 110px;
+    }
+    .is-light .site-header__logo .logo--inverted {
+      width: 110px;
+    }
+    @media only screen and (min-width: 769px) {
+      .site-header__logo a {
+        width: 140px;
+      }
+
+      .is-light .site-header__logo .logo--inverted {
+        width: 140px;
+      }
+    }</style><div class="h1 site-header__logo" itemscope itemtype="http://schema.org/Organization" >
+      <a
+        href="/"
+        itemprop="url"
+        class="site-header__logo-link"
+        style="padding-top: 22.702104097452935%">
+  
+<image-element data-aos="image-fade-in">
+<img src="./img/logo-white.png?v=1613699116&amp;width=280" alt="" srcset="./img/logo-white.png?v=1613699116&amp;width=140 140w, ./img/logo-white.png?v=1613699116&amp;width=280 280w" width="140" height="31.782945736434108" loading="eager" class="small--hide image-element" sizes="140px" itemprop="logo" style="max-height: 31.782945736434108px;max-width: 140px;">
+  </image-element>
+
+<image-element data-aos="image-fade-in">   
+    <img src="./img/logo-white.png?v=1613699116&amp;width=220" alt="" srcset="./img/logo-white.png?v=1613699116&amp;width=110 110w,./img/logo-white.png?v=1613699116&amp;width=220 220w" width="110" height="24.972314507198227" loading="eager" class="medium-up--hide image-element" sizes="110px" style="max-height: 24.972314507198227px;max-width: 110px;"></image-element></a></div></div>
+
+<!fim logo>
+<!inicio menu>
+
+<style>
+/* Menu principal */
+.site-nav__link {
+font-size: 18px;
+}
+/* Dropdown interno */
+.site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
+font-size: 14px;
+} 
+
+/* Header totalmente transparente */
+.site-header,
+.header-wrapper,
+.header-sticky-wrapper,
+.site-header .page-width {
+  background: transparent !important;
+}
+
+/* Remove linha e sombra */
+.site-header {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove pseudo-elementos invisíveis */
+.site-header::before,
+.site-header::after {
+  display: none !important;
+}
+.header-wrapper,
+.header-sticky-wrapper,
+.header-sticky-wrapper *:not(.site-nav__dropdown):not(.megamenu) {
+  background-color: transparent !important;
+
+.toolbar + .header-sticky-wrapper .site-header {
+border-top: 0;}</style>
+
+
+<div data-section-id="sections--__header" data-section-type="header"><div class="toolbar small--hide"><div class="page-width">
+<div class="header-item header-item--navigation text-center" role="navigation" aria-label="Primary">
+<ul class="site-nav site-navigation small--hide">
+<li class="site-nav__item site-nav__expanded-item site-nav--has-dropdown site-nav--is-megamenu">
+
+<details data-hover="true" id="site-nav-item--1" class="site-nav__details" aria-expanded="false">
+<summary data-link="/collections/all" aria-expanded="false" aria-controls="site-nav-item--1" class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
+PRODUTOS <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"></path></svg></summary>
+
+<div class="site-nav__dropdown megamenu text-left">
+<div class="page-width">
+<div class="grid grid--center">
+<div class="grid__item medium-up--one-fifth appear-animation appear-delay-1">
+<div class="svg-mask svg-mask--landscape">
+
+<image-element data-aos="image-fade-in" class="aos-init aos-animate"> 
+<img src="./img/filtered-trail.jpg" alt="Menu Organics" srcset="./img/filtered-trail.jpg?v=1526404946&amp;width=352 352w, ./img/filtered-trail.jpg?v=1526404946&amp;width=832 832w, ./img/filtered-trail.jpg?v=1526404946&amp;width=1200 1200w, ./img/filtered-trail.jpg?v=1526404946&amp;width=1920 1920w" loading="lazy" class="megamenu__collection-image image-element" sizes="(min-width: 769px) 20vw, 100vw"> 
+</image-element></div>
+
+<div class="h5"> <a href="./prod_categoria_vaa_sup.html" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Bodyboard</a>
+</div>
+<div><a href="./prod_categoria_bb_todos.html" class="site-nav__dropdown-link">
+Todos</a></div></div>
+
+<div class="grid__item medium-up--one-fifth appear-animation appear-delay-2">
+<div class="svg-mask svg-mask--landscape">
+
+<image-element data-aos="image-fade-in" class="aos-init aos-animate"> 
+<img src="./img/filtered-enduro.jpg" alt="Teste Menu organics" srcset="./img/filtered-enduro.jpg?v=1526404962&amp;width=352 352w, ./img/filtered-enduro.jpg?v=1526404962&amp;width=832 832w,./img/filtered-enduro.jpg?v=1526404962&amp;width=1200 1200w, ./img/filtered-enduro.jpg?v=1526404962&amp;width=1920 1920w" loading="lazy" class="megamenu__collection-image image-element" sizes="(min-width: 769px) 20vw, 100vw">
+</image-element></div>
+
+<div class="h5"><a href="./prod_categoria_vaa_sup.html" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Surf</a>
+</div>
+<div><a href="./prod_categoria_surf_todos.html" class="site-nav__dropdown-link">
+Todos</a>
+</div></div><div class="grid__item medium-up--one-fifth appear-animation appear-delay-3">
+<div class="svg-mask svg-mask--landscape">
+
+<image-element data-aos="image-fade-in" class="aos-init aos-animate"> 
+<img src="./img/filtered-downhill.jpg" alt="teste menu" srcset="./img/filtered-downhill.jpg?v=1526404980&amp;width=352 352w,./img/filtered-downhill.jpg?v=1526404980&amp;width=832 832w,./img/filtered-downhill.jpg?v=1526404980&amp;width=1200 1200w,./img/filtered-downhill.jpg?v=1526404980&amp;width=1920 1920w" loading="lazy" class="megamenu__collection-image image-element" sizes="(min-width: 769px) 20vw, 100vw"> 
+</image-element></div>
+
+<div class="h5"><a href="./prod_categoria_vaa_sup.html" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Foil/Kite</a>
+</div><div>
+<a href="./prod_categoria_kite.html" class="site-nav__dropdown-link">
+Todos</a>
+</div></div><div class="grid__item medium-up--one-fifth appear-animation appear-delay-4">
+<div class="svg-mask svg-mask--landscape">
+
+<image-element data-aos="image-fade-in" class="aos-init aos-animate"> 
+<img src="./img/filtered-outlet.jpg" alt="Bike Outlet" srcset="./img/filtered-outlet.jpg?v=1526404895&amp;width=352 352w, ./img/filtered-outlet.jpg?v=1526404895&amp;width=832 832w, ./img/filtered-outlet.jpg?v=1526404895&amp;width=1200 1200w, ./img/filtered-outlet.jpg?v=1526404895&amp;width=1920 1920w" loading="lazy" class="megamenu__collection-image image-element" sizes="(min-width: 769px) 20vw, 100vw">
+</image-element></div>
+
+<div class="h5"><a href="./prod_categoria_vaa_sup.html" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Va'a</a>
+</div>
+<div><a href="./prod_categoria_vaa_sup.html" class="site-nav__dropdown-link">
+Todos</a></div></div></div></div></div></details></li><li class="site-nav__item site-nav__expanded-item">
+
+<details data-hover="true" class="site-nav__details site-nav__conheça">
+<summary class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
+CONHEÇA
+<svg aria-hidden="true" focusable="false" role="presentation"
+class="icon icon--wide icon-chevron-down"
+viewBox="0 0 28 16">
+<path d="m1.57 1.59 12.76 12.77L27.1 1.59"
+stroke-width="2" stroke="#000" fill="none"></path>
+</svg></summary> 
+
+<div class="site-nav__dropdown megamenu text-left">
+<div class="page-width">
+<div class="grid grid--center">
+<div class="grid__item medium-up--one-fifth appear-animation appear-delay-1">
+<div class="svg-mask svg-mask--landscape"></div> 
+
+<div><a href="./empresa.html" class="site-nav__dropdown-link">
+Empresa</a></div>
+<div><a href="./team.html" class="site-nav__dropdown-link">
+Team</a></div>
+<div><a href="./Representantes.html" class="site-nav__dropdown-link">
+Representantes</a></div>
+<div><a href="./Contato.html" class="site-nav__dropdown-link">
+Contato</a></div>
+</div></div></div>
+</details></li>
+
+<!-- LUPA (gatilho visual) -->
+<a href="javascript:void(0)"
+   class="site-nav__link site-nav__link--icon js-search-toggle"
+   aria-label="Buscar">
+  <svg aria-hidden="true" focusable="false" role="presentation"
+       class="icon icon-search" viewBox="0 0 64 64">
+    <path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58ZM54 54 41.94 42"></path>
+  </svg>
+</a>
+
+<!-- BUSCA WEBSTORE (OCULTA) -->
+<div class="search-header search-header--hidden" id="searchHeader">
+  <input
+    type="text"
+    id="input-busca"
+    class="input-busca"
+    placeholder="Buscar"
+    maxlength="50"
+    autocomplete="off"
+    onkeydown="event.key === 'Enter' && this.value !== '' && FuncaoBuscaBotao('input-busca')">
+
+  <button
+    type="button"
+    class="botao-busca-header"
+    aria-label="Buscar"
+    onclick="document.getElementById('input-busca').value !== '' && FuncaoBuscaBotao('input-busca')">
+    <svg aria-hidden="true" focusable="false" role="presentation"
+         class="icon icon-search" viewBox="0 0 64 64">
+      <path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58ZM54 54 41.94 42"></path>
+    </svg>
+  </button>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </header></div></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      
+<!--SEARCH-->
+
+
+            
+<!-- END sections: header-group -->
+
+<main class="main-content" id="MainContent">
+
+        <div id="shopify-section-template--15198468931645__1628020789be04665f" class="shopify-section index-section--hero"><style data-shopify>.hero--template--15198468931645__1628020789be04665f .hero__title {
+    font-size: 41.0px;
+  }
+  @media only screen and (min-width: 769px) {
+    .hero--template--15198468931645__1628020789be04665f .hero__title {
+      font-size: 82px;
+    } }
+
+    .hero--template--15198468931645__1628020789be04665f .hero__text-wrap:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 3;
+      background-color: #000;
+      opacity: 0.04;
+    }
+
+ .section-7,
+.background-video-2 {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.section-7 {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.section-7 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-video {
+  position: relative;
+}
+
+.hero__text-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding-top: var(--header-height);
+}
+
+.background-video-2 {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+</style>
+
+<section class="section-7">
+
+  <div
+    data-poster-url="https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-poster-00001.jpg"
+    data-video-urls="
+      https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.mp4,
+      https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.webm
+    "
+    data-autoplay="true"
+    data-loop="true"
+    data-wf-ignore="true"
+    class="background-video-2 w-background-video w-background-video-atom"
+  >
+
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      data-wf-ignore="true"
+      style="background-image:url('https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-poster-00001.jpg')"
+    >
+
+      <source
+        src="https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.mp4"
+        type="video/mp4"
+      >
+
+      <source
+        src="https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.webm"
+        type="video/webm"
+      >
+
+    </video>
+</div>
+
+<div class="hero__text-wrap">
+    <div class="page-width">
+      <div class="hero__text-content vertical-center horizontal-left">
+        <div class="hero__text-shadow"><h2 class="h1 hero__title">
+              <div class="animation-cropper"><div class="animation-contents">
+              Next level<br />
+Ride design
+              </div></div>
+            </h2><div class="hero__link">
+                <div class="animation-cropper">
+                  <div class="animation-contents">
+                    <a href="https://www.youtube.com/watch?v=7NT5SIjzbAo" class="btn btn--inverse"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="18.24 17.35 24.52 28.3"><path fill="#323232" d="M22.1 19.151v25.5l20.4-13.489-20.4-12.011z"/></svg>Assista o video
+                    </a></div></div></div></div></div></div></div></div></div>
+</section>
+
+<!INICIO BLACK FRIDAY-->
+<div id="shopify-section-template--15198468931645__bfc546ee-ecee-41d4-a35f-ad9b2bab2587" class="shopify-section">
+<div class="">
+  <div
+    class="
+      countdown-wrapper 
+      countdown-layout--banner
+      countdown-blocks--3      
+        countdown__background-image--true
+       countdown__mobile-image--false
+      
+    "
+    style="     
+        --countdown-text-color: #ffffff; 
+           
+        --countdown-background-color: #100f0f;     
+      --accent-color: #FFF
+    "
+  >
+<style>
+
+.shopify-section-template--15198468931645__bfc546ee-ecee-41d4-a35f-ad9b2bab2587 {
+  transform: translateY(-1px);
+}
+.shopify-section + .shopify-section {
+  margin-top: 0 !important;
+}
+.countdown-wrapper {
+  margin-top: 1px !important;
+}
+
+.countdown__content {
+  padding-top: 1x !important;
+}
+   
+.shopify-section-template--15198468931645__bfc546ee-ecee-41d4-a35f-ad9b2bab2587 {
+  margin-top: 0;
+}
+    .countdown {
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+} </style>
+    <div
+      class="countdown__content">
+    <div class="countdown__background-image-wrapper ">
+
+<image-element data-aos="image-fade-in">
+
+      <img src="./img/footersurf.jpg?v=1613701230&amp;width=2400" alt="" srcset=./img/footersurf.jpg?v=1613701230&amp;width=352 352w, ./img/footersurf.jpg?v=1613701230&amp;width=832 832w, ./img/footersurf.jpg?v=1613701230&amp;width=1200 1200w, ./img/footersurf.jpg?v=1613701230&amp;width=1920 1920w" loading="lazy" class="countdown__background-image image-element" sizes="100vw">  
+</image-element>
+       
+              <div
+                class="
+                  countdown__overlay                  
+                "
+                style="
+                  --countdown-overlay-rgba: rgba(0, 0, 0, 0.86)
+                "
+              ></div> </div>
+        
+          <div class="countdown__block countdown__block--content" >
+            <div class="countdown__text-wrapper countdown__text-wrapper--content-alignment-left">
+              <div class="countdown__heading">
+                <h2 class="h2">FRETE GRÁTIS</h2><!15 CARACTERES 2 ESPAÇOS >
+              </div>
+              <div class="countdown__richtext">
+                <p>15% OFF PRIMEIRA COMPRA 2025  </p>
+              </div></div></div>
+        
+   <!FIM BLACK FRIDAY-->   
+<!INICIO CONTADOR-->  
+  
+          <div class="countdown__block countdown__block--button button-block-active" >
+            <a
+              class="countdown__button btn btn--solid"
+              href="entrega.html"
+            >
+              Saiba mais
+            </a> </div></div></div></div>
+<!FIM CONTADOR-->
+
+<!INICIO ACV-->
+
+</div><div id="shopify-section-template--15198468931645__1628020846d2a57031" class="shopify-section"><div
+  data-section-id="template--15198468931645__1628020846d2a57031"
+  data-section-type="promo-grid"><div class="page-width"><style data-shopify>.flex-grid--template--15198468931645__1628020846d2a57031 {
+    margin-top: -20px;
+    margin-left: -20px;
+    }
+
+  .flex-grid--template--15198468931645__1628020846d2a57031 .flex-grid--gutters {
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+
+  .flex-grid--template--15198468931645__1628020846d2a57031 .flex-grid__item {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  @media only screen and (max-width: 589px) {
+    .flex-grid--template--15198468931645__1628020846d2a57031 {
+      margin-top: -10px;
+      margin-left: -10px;
+      
+    }
+
+    .flex-grid--template--15198468931645__1628020846d2a57031 .flex-grid--gutters {
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+
+    .flex-grid--template--15198468931645__1628020846d2a57031 .flex-grid__item {
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  }</style><div class="promo-grid promo-grid--space-top promo-grid--space-bottom">
+  <div class="flex-grid flex-grid--gutters flex-grid--template--15198468931645__1628020846d2a57031"><style data-shopify>
+
+.flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .btn {
+            background:  !important;
+            border: none !important;
+          }
+
+          
+            .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .btn:before,
+            .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .btn:after {
+              background:  !important;
+              border: none !important;
+            }
+          
+.flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .btn--tint-border {
+            border: 1px solid rgba(0, 0, 0, 0.2) !important;
+          }
+
+          
+            .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .btn--tint-border:before,
+            .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .btn--tint-border:after {
+              border-color: rgba(0, 0, 0, 0.2);
+            }
+ 
+          .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .promo-grid__text {
+            font-size: 0.85em;
+          }
+          .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea.flex-grid__item--50 .promo-grid__text {
+            font-size: 1.0em;
+          }
+
+          @media only screen and (min-width: 769px) {
+            .flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea .promo-grid__text {
+              font-size: 1.0em;
+            }
+          }
+.type-product__image:last-child {
+  display: none;
+}   
+</style>
+
+<div class="flex-grid__item flex-grid__item--50 flex-grid__item--bb6ca051-8123-4eb3-b50b-4f5c3bf632ea type-product" ><div
+              class="promo-grid__container">
+              <div class="type-product__wrapper">
+                <div class="flex-grid flex-grid--center flex-grid--gutters">
+                  <div class="flex-grid__item flex-grid__item--stretch flex-grid__item--50 flex-grid__item--mobile-second"><div class="promo-grid__text type-product__content"><h2 class="rte--block rte--strong">
+                            ACV Foundation
+                          </h2><div class="rte--block">
+                            The Factory Build Sniper XC is the pinnacle of our build specs and is now shipping worldwide.
+                          </div><a href="/products/acv-foundation-build" class="btn">
+                            Compre agora
+                          </a></div></div>
+                  <div class="flex-grid__item flex-grid__item--stretch flex-grid__item--50 flex-grid__item--second">
+                    <div class="type-product__images" data-aos="row-of-2"><div class="type-product__image"><div class="type-product__labels"><div class="type-product__label">
+                                    Novo
+                                  </div></div><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
+                              <a href="/products/acv-foundation-build">
+
+
+<image-element data-aos="image-fade-in">
+ 
+    
+    <img src="./img/ACV-FND-camo-45_08.png?v=1534955879&amp;width=1600" alt="ACV FOUNDATION BUILD" srcset="./img/ACV-FND-camo-45_08.png?v=1534955879&amp;width=360 360w, ./img/ACV-FND-camo-45_08.png?v=1534955879&amp;width=540 540w, ./img/ACV-FND-camo-45_08.png?v=1534955879&amp;width=900 900w, ./img/ACV-FND-camo-45_08.png?v=1534955879&amp;width=1080 1080w,./img/ACV-FND-camo-45_08.png?v=1534955879&amp;width=1600 1600w" loading="lazy" class=" image-element" sizes="(min-width: 769px) calc(0.75 * 50vw), 75vw">
+  
+</image-element>
+</a></div> </div>
+
+<div class="type-product__image"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
+  </div>
+ </div></div>
+ </div>
+ </div>
+</div>
+</div></div>
+<!FIM ACV-->
+<!INICIO LATERAL SCREENSHOT-->
+
+<style data>
+          
+            .flex-grid__item--1628020846d2a57031-0 {
+              min-height: 300.0px;
+            }
+
+          @media only screen and (min-width: 769px) {
+            .flex-grid__item--1628020846d2a57031-0 {
+              min-height: 400.0px;
+            }
+          }
+
+          @media only screen and (min-width: 1140px) {
+            .flex-grid__item--1628020846d2a57031-0 {
+              min-height: 500px;
+            }
+          }
+ 
+.flex-grid__item--1628020846d2a57031-0 .btn {
+            background: #ffffff !important;
+            border: none !important;
+              color: #000 !important;
+            
+          }
+      
+            .flex-grid__item--1628020846d2a57031-0 .btn:before,
+            .flex-grid__item--1628020846d2a57031-0 .btn:after {
+              background: #ffffff !important;
+              border: none !important;
+            }
+
+          .flex-grid__item--1628020846d2a57031-0 .promo-grid__text {
+            font-size: 0.85em;
+          }
+          .flex-grid__item--1628020846d2a57031-0.flex-grid__item--50 .promo-grid__text {
+            font-size: 1.0em;
+          }
+
+          @media only screen and (min-width: 769px) {
+            .flex-grid__item--1628020846d2a57031-0 .promo-grid__text {
+              font-size: 1.0em;
+            }
+          }
+        
+</style><div class="flex-grid__item flex-grid__item--50 flex-grid__item--1628020846d2a57031-0 type-advanced" ><div
+              class="promo-grid__container vertical-center horizontal-center"><a href="/products/spider-elite-build" class="promo-grid__slide-link" aria-hidden="true" aria-label="Shop now"></a><div class="promo-grid__bg">
+
+
+
+<image-element data-aos="image-fade-in">
+
+
+    <img src="./img/Screen_Shot_2018-05-09_at_5.00.46_PM.png?v=1613701229&amp;width=2024" alt="" srcset="./img/Screen_Shot_2018-05-09_at_5.00.46_PM.png?v=1613701229&amp;width=352 352w,./img/Screen_Shot_2018-05-09_at_5.00.46_PM.png?v=1613701229&amp;width=832 832w,./img/Screen_Shot_2018-05-09_at_5.00.46_PM.png?v=1613701229&amp;width=1200 1200w,./img/Screen_Shot_2018-05-09_at_5.00.46_PM.png?v=1613701229&amp;width=1920 1920w" loading="lazy" class="image-fit promo-grid__bg-image promo-grid__bg-image--1628020846d2a57031-0
+ image-element" sizes="(min-width: 769px) 50vw, 100vw">
+  
+</image-element>
+</div>
+
+<div class="promo-grid__content">
+                  <div class="promo-grid__text"><div class="rte--block rte--em">
+                        NOVIDADES
+                      </div><h2 class="rte--block rte--strong">
+                        NOVA LINHA DE PRODUTOS 2025
+                      </h2><div class="rte--block">
+                      </div><a href="/products/spider-elite-build" class="btn">
+                        CONHE&CcedilA
+                      </a></div>
+                </div></div></div></div>
+</div>
+</div></div>
+
+</div>
+
+<!INICIO GRID-->
+
+<div id="shopify-section-template--15198468931645__162802085830dbc159" class="shopify-section index-section"><div
+  id="CollectionSection-template--15198468931645__162802085830dbc159"
+  data-section-id="template--15198468931645__162802085830dbc159"
+  data-section-type="collection-grid"
+  data-context="featured-collection"><div class="page-width">
+      <div class="section-header">
+        <h2 class="section-header__title">
+          Mais Vendidos
+        </h2></div>
+    </div><div class="page-width page-width--flush-small">
+    <div class="grid-overflow-wrapper">
+      <div class="grid grid--uniform" data-aos="overflow__animation">
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="acv-pro-build" data-product-id="718187823165">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+<image-element data-aos="image-fade-in">
+
+    
+    <img src="ACV-PRO-GRY-45_06a5bad8-cb2f-4f94-bd9f-b4f25c1ce05c.png?v=1534955878&amp;width=1080" alt="" srcset="ACV-PRO-GRY-45_06a5bad8-cb2f-4f94-bd9f-b4f25c1ce05c.png?v=1534955878&amp;width=360 360w, ACV-PRO-GRY-45_06a5bad8-cb2f-4f94-bd9f-b4f25c1ce05c.png?v=1534955878&amp;width=540 540w, ACV-PRO-GRY-45_06a5bad8-cb2f-4f94-bd9f-b4f25c1ce05c.png?v=1534955878&amp;width=720 720w,ACV-PRO-GRY-45_06a5bad8-cb2f-4f94-bd9f-b4f25c1ce05c.png?v=1534955878&amp;width=900 900w, ACV-PRO-GRY-45_06a5bad8-cb2f-4f94-bd9f-b4f25c1ce05c.png?v=1534955878&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+
+
+</image-element>
+
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718187823165 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/acv-pro-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">PRESILHA  NEO25</div><div class="grid-product__price">R$99.90
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718187823165"></span><div id="QuickShopModal-718187823165" class="modal modal--square modal--quick-shop" data-product-id="718187823165">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-acv-pro-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="primer-elite-build" data-product-id="718186774589">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+
+
+<image-element data-aos="image-fade-in">
+
+
+  
+    
+    <img src="Recluse-FND-BLK-45.png?v=1534955879&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955879&amp;width=360 360w, Recluse-FND-BLK-45.png?v=1534955879&amp;width=540 540w,Recluse-FND-BLK-45.png?v=1534955879&amp;width=720 720w,Recluse-FND-BLK-45.png?v=1534955879&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955879&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+
+
+</image-element>
+
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718186774589 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/primer-elite-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">CAPA FULL ANANAS</div><div class="grid-product__price">R$230.00
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718186774589"></span><div id="QuickShopModal-718186774589" class="modal modal--square modal--quick-shop" data-product-id="718186774589">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-primer-elite-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="primer-pro-build" data-product-id="718186545213">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+
+
+<image-element data-aos="image-fade-in">
+
+
+  
+    
+    <img src="Recluse-FND-BLK-45.png?v=1534955880&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955880&amp;width=360 360w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=540 540w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=720 720w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+
+
+</image-element>
+
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718186545213 small--hide">
+            Veja 
+          </button></div>
+
+      <a href="/collections/trail/products/primer-pro-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">SUPORTE FLUTUANTE &OacuteCULOS</div><div class="grid-product__price">R$45.00
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718186545213"></span><div id="QuickShopModal-718186545213" class="modal modal--square modal--quick-shop" data-product-id="718186545213">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-primer-pro-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="recluse-foundation-build" data-product-id="718184579133">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+
+
+<image-element data-aos="image-fade-in">
+
+
+  
+    
+    <img src="Recluse-FND-BLK-45.png?v=1534955882&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955882&amp;width=360 360w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=540 540w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=720 720w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+
+
+</image-element>
+
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718184579133 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/recluse-foundation-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">SQUEEZE STYLE ORGANICS</div><div class="grid-product__price">R$35.00
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718184579133"></span><div id="QuickShopModal-718184579133" class="modal modal--square modal--quick-shop" data-product-id="718184579133">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-recluse-foundation-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="primer-expert-build" data-product-id="718186217533">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+<image-element data-aos="image-fade-in">
+
+    
+    <img src="Recluse-FND-BLK-45.png?v=1534955880&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955880&amp;width=360 360w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=540 540w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=720 720w,Recluse-FND-BLK-45.png?v=1534955880&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+</image-element></div>
+
+<button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718186217533 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/primer-expert-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">LEASH SURF TRADICIONAL 6’ x 6MM</div><div class="grid-product__price">R$110.00
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718186217533"></span><div id="QuickShopModal-718186217533" class="modal modal--square modal--quick-shop" data-product-id="718186217533">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-primer-expert-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button></div></div></div></div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="primer-foundation-build" data-product-id="718185889853">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;">
+
+<image-element data-aos="image-fade-in">
+
+    <img src="Recluse-FND-BLK-45.png?v=1534955880&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955880&amp;width=360 360w, Primer-FND-BLK-45.png?v=1534955880&amp;width=540 540w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=720 720w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955880&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+</image-element>
+
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718185889853 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/primer-foundation-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">CAPA T&EacuteRMICA WINGFOIL </div><div class="grid-product__price">R$540.00
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718185889853"></span><div id="QuickShopModal-718185889853" class="modal modal--square modal--quick-shop" data-product-id="718185889853">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-primer-foundation-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="primer-factory-build" data-product-id="718187036733">
+  <div class="grid-product__content"><div class="grid-product__tag grid-product__tag--sale">
+          Sale
+        </div><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+
+
+<image-element data-aos="image-fade-in">
+
+ <img src="Recluse-FND-BLK-45.png?v=1534955882&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955882&amp;width=360 360w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=540 540w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=720 720w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+</image-element>
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718187036733 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/primer-factory-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">RACK DE FITA ORGANICS</div><div class="grid-product__price"><span class="visually-hidden">Regular price</span>
+              <span class="grid-product__price—original">R$140,00</span>
+              <span class="visually-hidden">Sale price</span>R$125.00
+<span class="grid-product__price--savings">
+                  Save $15.00
+                </span></div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718187036733"></span><div id="QuickShopModal-718187036733" class="modal modal--square modal--quick-shop" data-product-id="718187036733">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-primer-factory-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grid__item grid-product small--one-half medium-up--one-quarter  grid-product__has-quick-shop" data-aos="row-of-4" data-product-handle="acv-foundation-build" data-product-id="718187364413">
+  <div class="grid-product__content"><div class="grid-product__tag grid-product__tag--sold-out">
+          ESGOTADO
+        </div><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+
+
+
+<image-element data-aos="image-fade-in">
+
+
+  
+    
+ <img src="Recluse-FND-BLK-45.png?v=1534955882&amp;width=1080" alt="" srcset="Recluse-FND-BLK-45.png?v=1534955882&amp;width=360 360w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=540 540w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=720 720w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=900 900w, Recluse-FND-BLK-45.png?v=1534955882&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="(min-width: 769px) 25vw, 39vw">
+  
+</image-element>
+
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718187364413 small--hide">
+            Veja
+          </button></div>
+
+      <a href="/collections/trail/products/acv-foundation-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title—heading">CAPA TOALHA SURF</div><div class="grid-product__price">R$130.00
+</div></div>
+      </a>
+    </div>
+  </div><span class="shopify-product-reviews-badge" data-id="718187364413"></span><div id="QuickShopModal-718187364413" class="modal modal--square modal--quick-shop" data-product-id="718187364413">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-acv-foundation-build"></div>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="grid__item text-center small--hide">
+                <a href="/collections/trail" class="btn">Veja todos</a>
+              </div><div class="grid__item grid__item--view-all text-center small--one-half medium-up--one-quarter medium-up--hide">
+                <a href="/collections/trail" class="grid-product__see-all">
+                  Todos<br>23 products
+                </a></div></div></div></div></div>
+</div><div id="shopify-section-template--15198468931645__1628020854e8917215" class="shopify-section index-section"><div class="text-center page-width page-width--narrow"><div class="theme-block" ><div class="rte"><div class="enlarge-text"><p>Iconic. American. Rugged mountain bikes � Products by <a href="https://www.organicsstore.com.br/" title="https://organics.com.br/">Organics Store</a></p>
+</div></div></div></div>
+</div><div id="shopify-section-template--15198468931645__16280208696821dcb5" class="shopify-section index-section--flush"><div
+  data-section-id="template--15198468931645__16280208696821dcb5"
+  data-section-type="background-image"
+  class="background-media-text background-media-text--template--15198468931645__16280208696821dcb5 background-media-text--750 loaded"
+  data-aos="background-media-text__animation"
+  data-parallax="true">
+
+  <div class="background-media-text__container"><parallax-image class="parallax-container">
+        <div class="parallax-image" data-movement="15%" data-parallax-image data-angle="top">
+          
+<image-element data-aos="image-fade-in">
+    
+    <img src="./img/hero-chain_233.jpg?v=1613699847&amp;width=2400" alt="" srcset="./img/hero-chain_233.jpg?v=1613699847&amp;width=352 352w, ./img/hero-chain_233.jpg?v=1613699847&amp;width=832 832w, ./img/hero-chain_23369928-20db-49ec-bd1c-833255723c35.jpg?v=1613699847&amp;width=1200 1200w, ./img/hero-chain_233.jpg?v=1613699847&amp;width=1920 1920w" loading="lazy" class="image-fit background-media-text__image background-media-text__image--template--15198468931645__16280208696821dcb5 image-element" sizes="100vw">
+
+</image-element>
+
+</div>
+      </parallax-image></div><div class="background-media-text__inner">
+      <div class="background-media-text__aligner background-media-text--right">
+        <div class="animation-cropper">
+          <div class="animation-contents">
+            <div class="background-media-text__text"><p class="h5">Redesigned for 2025</p><p class="h3">Steel Derailleurs</p><div class="rte background-media-text__subtext"><p>Our patented derailleurs come with our standard 10-year guarantee. Never worry about chain drift again.</p></div><a href="/pages/about" class="btn">
+                  Saiba mais...
+                </a></div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+
+<div class="background-media-text__spacer background-media-text--750"></div>
+
+
+</div><div id="shopify-section-template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d" class="shopify-section hotspots-section">
+<style data-shopify>
+  
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5); }
+      100% { box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); }
+    }
+
+    .template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d .hotspot__button--template--15068310536253__7cdfef4c-ceff-4987-a7cf-d005fbae656d-1666211273dd1477d0-1 {
+      left: 65%;
+      top: 42%;
+      background-color: #000000;
+      animation: pulse 2s infinite;
+    }
+
+    .template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d .hotspot__button--template--15068310536253__7cdfef4c-ceff-4987-a7cf-d005fbae656d-1666211273dd1477d0-1:hover {
+      
+        background-color: #1a1a1a;
+      
+    }
+  
+
+  .template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d .hotspot__button path {  
+      stroke: #fff !important;    
+  }
+
+  .template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d .hotspot__button circle {
+    
+      fill: #fff !important;    
+  }
+
+  .template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d .hotspot__button .icon-plus path {
+    
+      fill: #fff !important;
+      stroke: transparent;
+    
+  }
+</style>
+
+<div class="index-section template--15198468931645__7cdfef4c-ceff-4987-a7cf-d005fbae656d 255">
+  
+  <hot-spots class="hotspots-wrapper  is-reverse">
+
+    <div class="hotspots">
+      <div class="hotspots__image hotspots__image--indent-true">
+        <div class="grid__image-ratio grid__image-ratio--square">
+          
+<image-element data-aos="image-fade-in">
+
+   <img src="./img/hero-bike.jpg?v=1613698949&amp;width=2400" alt="" srcset="./img/hero-bike.jpg?v=1613698949&amp;width=352 352w, ./img/hero-bike.jpg?v=1613698949&amp;width=832 832w,./img/ hero-bike.jpg?v=1613698949&amp;width=1200 1200w, ./img/hero-bike.jpg?v=1613698949&amp;width=1920 1920w" loading="lazy" class=" image-element" sizes="(min-width: 769px) 70vw, 100vw">
+  </image-element></div></div>
+
+      <div class="hotspots__buttons">
+        
+          <a href="#" class="hotspot__button hotspot__button--template--15068310536253__7cdfef4c-ceff-4987-a7cf-d005fbae656d-1666211273dd1477d0-1" data-button="template--15068310536253__7cdfef4c-ceff-4987-a7cf-d005fbae656d-1666211273dd1477d0-1">
+          
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-dot" viewBox="0 0 12 12"><circle cx="6" cy="6" r="6" fill="currentColor"/></svg>
+</a></div></div>
+   
+ <div class="hotspots__content" data-block-container>
+      
+        <div class="hotspot-content__block is-active" data-block-type="product" data-hotspot-block="template--15068310536253__7cdfef4c-ceff-4987-a7cf-d005fbae656d-1666211273dd1477d0-1" >
+          
+ <div class="grid__item grid-product   grid-product__has-quick-shop" data-aos="row-of-1" data-product-handle="carbine-foundation-build" data-product-id="718179958845">
+  <div class="grid-product__content"><div class="grid__item-image-wrapper">
+      <div class="grid-product__image-mask"><div class="image-wrap"
+            
+              style="height: 0; padding-bottom: 100.0%;"
+            
+          >
+<image-element data-aos="image-fade-in">
+    
+    <img src=./img/18Carbine-FND-ORG-45.png?v=1534955889&amp;width=1080" alt="" srcset=./img/18Carbine-FND-ORG-45.png?v=1534955889&amp;width=360 360w, ./img/18Carbine-FND-ORG-45.png?v=1534955889&amp;width=540 540w, 18Carbine-FND-ORG-45.png?v=1534955889&amp;width=720 720w, ./img/18Carbine-FND-ORG-45.png?v=1534955889&amp;width=900 900w,./img/18Carbine-FND-ORG-45.png?v=1534955889&amp;width=1080 1080w" loading="lazy" class="grid-product__image image-style--
+ image-element" sizes="30vw">
+  
+</image-element>
+</div><button class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-718179958845 small--hide">
+            Veja agora
+          </button></div>
+
+      <a href="/products/carbine-foundation-build" class="grid-product__link">
+        <div class="grid-product__meta">
+          <div class="grid-product__title grid-product__title--heading">CARBINE FOUNDATION BUILD</div><div class="grid-product__price">$3,299.00
+</div></div>
+      </a></div>
+  </div><span class="shopify-product-reviews-badge" data-id="718179958845"></span><div id="QuickShopModal-718179958845" class="modal modal--square modal--quick-shop" data-product-id="718179958845">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <div id="QuickShopHolder-carbine-foundation-build"></div></div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
+        <span class="icon__fallback-text">"Close (esc)"</span>
+      </button></div> </div></div></div></div></div></hot-spots></div>
+</div>
+
+<!---INICIO BLOG--->
+<style>
+.shopify-section-template--15198468931645__162802087230432360 {
+  margin-bottom: 20px !important;
+</style>
+
+<div id="shopify-section-template--15198468931645__162802087230432360" class="shopify-section index-section"><div class="page-width"><header class="section-header">
+      <h2 class="section-header__title">
+        Nosso blog
+      </h2><a href="blog.html"  class="btn btn--secondary btn--small section-header__link"> Todos</a></header><div class="grid grid--uniform">
+
+<div class="grid__item medium-up--one-third" data-aos="row-of-3">
+  <div class="grid">
+    <div class="grid__item small--one-third"><a href="blog1.html" class="article__grid-image" aria-label="Blog1"><div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--wide">
+
+<image-element data-aos="image-fade-in">
+
+    <img src="./img/blog3.jpg?v=1526480794&amp;width=1080" alt="Blog1" srcset="./img/blog3.jpg?v=1526480794&amp;width=360 360w, ./img/blog3.jpg?v=1526480794&amp;width=540 540w,./img/blog3.jpg?v=1526480794&amp;width=720 720w, ./img/blog3.jpg?v=1526480794&amp;width=900 900w,./img/blog3.jpg?v=1526480794&amp;width=1080 1080w" loading="lazy" class=" image-element" sizes="33vw">
+  </image-element>
+</div></div></a></div>
+
+    <div class="grid__item small--two-thirds">
+      <div class="article__grid-meta"><div class="article__date"><time datetime="2018-05-16T14:26:00Z">16 de jan., 2025</time>
+</div><a href="blog1.html" class="article__title">Segurança em primeiro lugar - Leashs</a></div></div></div></div>
+
+<div class="grid__item medium-up--one-third" data-aos="row-of-3">
+  <div class="grid">
+    <div class="grid__item small--one-third"><a href="blog2.html" class="article__grid-image" aria-label="Como ficar deep no tubo da vida?"><div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--wide">
+
+<image-element data-aos="image-fade-in">
+   
+    <img src="./img/andhika-soreng-390599-unsplash.jpg?v=1526480513&amp;width=1080" alt="Como ficar deep" srcset="./img/andhika-soreng-390599-unsplash.jpg?v=1526480513&amp;width=360 360w, ./img/andhika-soreng-390599-unsplash.jpg?v=1526480513&amp;width=540 540w, ./img/andhika-soreng-390599-unsplash.jpg?v=1526480513&amp;width=720 720w, ./img/andhika-soreng-390599-unsplash.jpg?v=1526480513&amp;width=900 900w, ./img/andhika-soreng-390599-unsplash.jpg?v=1526480513&amp;width=1080 1080w" loading="lazy" class=" image-element" sizes="33vw">
+  </image-element></div></div></a></div>
+
+    <div class="grid__item small--two-thirds">
+      <div class="article__grid-meta"><div class="article__date"><time datetime="2018-05-16T14:21:00Z">18 de Fev, 2025</time>
+</div><a href="blog3.html" class="article__title">Como ficar deep no tubo da vida?</a></div>
+    </div></div></div>
+
+<div class="grid__item medium-up--one-third" data-aos="row-of-3">
+  <div class="grid">
+    <div class="grid__item small--one-third"><a href="blog3.html" class="article__grid-image" aria-label="Quando a paisagem te recompensaa"><div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--wide">
+
+<image-element data-aos="image-fade-in">
+
+    <img src="./img/david-henrichs-375566-unsplash.jpg?v=1526480268&amp;width=1080" alt="Quando a paisagem te recompensa" srcset="./img/david-henrichs-375566-unsplash.jpg?v=1526480268&amp;width=360 360w, ./img/david-henrichs-375566-unsplash.jpg?v=1526480268&amp;width=540 540w, ./img/david-henrichs-375566-unsplash.jpg?v=1526480268&amp;width=720 720w, ./img/david-henrichs-375566-unsplash.jpg?v=1526480268&amp;width=900 900w, ./img/david-henrichs-375566-unsplash.jpg?v=1526480268&amp;width=1080 1080w" loading="lazy" class=" image-element" sizes="33vw">
+
+</image-element>
+
+</div>
+            </div></a></div>
+    <div class="grid__item small--two-thirds">
+      <div class="article__grid-meta"><div class="article__date"><time datetime="2018-05-16T14:16:00Z">26 de Mar, 2025</time>
+</div><a href="blog3.html">Quando a paisagem te recompensa</a></div>
+    </div>
+  </div>
+</div>
+</div></div>
+</div>
+
+<!--FIM BLOG-->
+<!--VIDEO 2-->
+
+<div id="shopify-section-template--15198468931645__162802088267f59b02" class="shopify-section"><div
+  data-section-id="template--15198468931645__162802088267f59b02"
+  data-section-type="promo-grid"><div class="page-width">
+
+
+<style data>
+.shopify-section-template--15198468931645__162802088267f59b02 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.promo-grid__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  color: #fff;
+}
+
+.flex-grid--template--15198468931645__162802088267f59b02 {
+    margin-top: -20px;
+    margin-left: -20px;
+    
+  }
+
+  .flex-grid--template--15198468931645__162802088267f59b02 .flex-grid--gutters {
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+
+  .flex-grid--template--15198468931645__162802088267f59b02 .flex-grid__item {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  @media only screen and (max-width: 589px) {
+    .flex-grid--template--15198468931645__162802088267f59b02 {
+      margin-top: -10px;
+      margin-left: -10px;
+      
+    }
+
+    .flex-grid--template--15198468931645__162802088267f59b02 .flex-grid--gutters {
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+
+    .flex-grid--template--15198468931645__162802088267f59b02 .flex-grid__item {
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  }</style><div class="promo-grid promo-grid--space-top promo-grid--space-bottom">
+  <div class="flex-grid flex-grid--gutters flex-grid--template--15198468931645__162802088267f59b02"><style data-shopify>
+          
+            .flex-grid__item--162802088267f59b02-0 {
+              min-height: 396.0px;
+            }
+          
+
+          @media only screen and (min-width: 769px) {
+            .flex-grid__item--162802088267f59b02-0 {
+              min-height: 528.0px;
+            }
+          }
+
+          @media only screen and (min-width: 1140px) {
+            .flex-grid__item--162802088267f59b02-0 {
+              min-height: 660px;
+            }
+          }
+ 
+          .flex-grid__item--162802088267f59b02-0 .promo-grid__text {
+            font-size: 0.85em;
+          }
+          .flex-grid__item--162802088267f59b02-0.flex-grid__item--50 .promo-grid__text {
+            font-size: 1.0em;
+          }
+
+          @media only screen and (min-width: 769px) {
+            .flex-grid__item--162802088267f59b02-0 .promo-grid__text {
+              font-size: 1.0em;
+            }
+          }
+/* Força seção a ocupar largura total */
+#shopify-section-template--15198468931645__162802088267f59b02,
+#shopify-section-template--15198468931645__162802088267f59b02 .page-width {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove margens internas do grid */
+#shopify-section-template--15198468931645__162802088267f59b02 .promo-grid {
+  margin: 0 !important;
+}
+
+/* Garante vídeo em full width e full height */
+.background-video-2,
+.background-video-2 video {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.video-on-road {
+  position: relative;
+}
+
+.video-text-on-road {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .video-text-on-road {
+    font-size: 24px;
+    bottom: 10%;
+  }
+}  
+</style>
+
+<div class="flex-grid__item flex-grid__item--100 flex-grid__item--162802088267f59b02-0 type-advanced" ><div
+              class="promo-grid__container vertical-center horizontal-center">
+<div class="promo-grid__bg">
+<div class="promo-grid__bg video-on-road">
+<div
+    data-poster-url="https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-poster-00001.jpg"
+    data-video-urls="
+      https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.mp4,
+      https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.webm
+    "
+    data-autoplay="true"
+    data-loop="true"
+    data-wf-ignore="true"
+    class="background-video-2 w-background-video w-background-video-atom"
+  >
+
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      data-wf-ignore="true"
+      style="background-image:url('https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-poster-00001.jpg')"
+    >
+
+      <source
+        src="https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.mp4"
+        type="video/mp4"
+      >
+
+      <source
+        src="https://cdn.prod.website-files.com/5fb2b443ff2b0c78abc3f0d5/67f82b1027fa000048a352dc_Savage_River_Website_Reel_v3-transcode.webm"
+        type="video/webm"
+      >
+
+    </video>
+</div>
+
+<div
+  data-subsection
+  data-section-id="162802088267f59b02-0"
+  data-section-type="video-section"
+  class="promo-video video-parent-section"
+  data-aos="background-media-text__animation">
+    <div class="background-media-text__video"></div></div>
+</div>
+</div><div class="promo-grid__content">
+                  <div class="promo-grid__text"><div class="rte--block rte--em">
+                        Introducing
+                      </div><h2 class="rte--block rte--strong">
+                        On the road: episode 1
+                      </h2><div class="rte--block">
+                        Acompanhe as aventuras de nossa equipe pelo mundo.
+                      </div><a href="" class="btn btn--inverse">
+                        Assista o video
+                      </a></div>
+                </div></div></div></div></div></div></div></div></main>
+<!--FIM VIDEO 2-->
+<!--###RODAPE###-->
+<div id="rodape"></div>
+</body>
+</html>

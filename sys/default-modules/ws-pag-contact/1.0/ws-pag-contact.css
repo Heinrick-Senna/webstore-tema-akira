@@ -1,0 +1,132 @@
+.contact-container .contact-form-top {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  grid-template-columns: auto auto;
+  margin-bottom: 2rem;
+}
+
+.contact-container .contact-holder {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.contact-block h2 {
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  padding-bottom: 2rem;
+  border-bottom: .1rem solid #e1e1e1;
+}
+
+.contact-container form > p {
+  margin-bottom: 1rem;
+}
+
+.contact-container .contact-form {
+  padding: 2rem;
+}
+
+.contact-container .contact-form label::after {
+  content: attr(optional);
+  font-size: 1.2rem;
+  color: #999;
+  font-style: italic;
+  margin-left: 0.5rem;
+}
+
+.contact-container .contact-form-top > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.contact-container .contact-form-top > div > input {
+  width: 100%;
+  background: white;
+  padding: 1rem;
+  border: var(--margin-all);
+}
+
+.contact-container .contact-form-bottom {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.contact-container .contact-form-bottom label {
+  width: 100%;
+  text-align: left;
+}
+
+.contact-container .contact-form-bottom textarea {
+  width: 100%;
+  border: var(--margin-all);
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 0;
+  height: 10.5rem;
+  resize: none;
+}
+
+.other-pages-row .contact-container .contact-form-bottom textarea {
+  height: 20rem;
+}
+
+.contact-container .address-container span {
+  padding: 0 2rem;
+}
+
+.contact-message-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+  display: none;
+  opacity: 0;
+}
+
+.contact-message-container .close-button {
+  position: absolute; 
+  top: 1rem;
+  right: 1rem;
+}
+
+.contact-message {
+  width: 100%;
+  padding: 1.5rem;
+  transition: opacity 200ms ease, margin-bottom 400ms ease, font-size 0s;
+  background-color: white;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: .1rem solid transparent;
+  border-radius: 1rem;
+}
+
+.contact-message.success {
+  visibility: visible;
+  background-color: #DFFAE4;
+  border-color: #12C62F;
+  color: #12C62F;
+}
+
+.contact-message.error {
+  visibility: visible;
+  background-color: #F6E8E8;
+  border-color:#C61212;
+  color: #C61212;
+}
+
+.contact-message span {
+  font-weight: 600; 
+}
+
+.contact-form-bottom > div {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}

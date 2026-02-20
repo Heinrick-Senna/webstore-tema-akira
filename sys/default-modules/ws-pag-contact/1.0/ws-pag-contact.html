@@ -1,0 +1,92 @@
+<section class="contact-container">
+  <div class="container">
+    <span class="breadcrumb-container" data-wsjs-breadcrumb></span>
+  </div>
+
+  <div class="container contact-holder">
+
+
+    <div class="contact-side contact-infos">
+
+      <div class="contact-block enterprise-data" data-wsjs-container>
+        <h2>Dados da empresa</h2>
+        <div>
+          <span data-wsjs-infos="socialName">{{value}}</span>
+          <span data-wsjs-infos="cnpj">{{value}}</span>
+          <span data-wsjs-infos="address">{{endereco}, }{{numero}, }{{bairro} }{{cidade} - }{{uf} - }{{cep} }</span>
+        </div>
+      </div>
+
+
+
+      <div class="contact-block" data-wsjs-container>
+        <h2>Informa&ccedil;&otilde;es de contato</h2>
+        <ul class="contact-list">
+          <li> <span data-wsjs-infos="commercialHours"><b>Hor&aacute;rio de atendimento: </b>{{value}}</span> </li>
+          <li> <span data-wsjs-infos="mainEmail"><b>E-mail: </b>{{value}} </span> </li>
+          <li> <span data-wsjs-infos="mainPhone"><b>Telefone: </b>{{value}}</span> </li>
+          <li> <span data-wsjs-infos="secondPhone"><b>Telefone: </b>{{value}}</span> </li>
+          <li> <span data-wsjs-infos="whatsapp"><b>WhatsApp: </b>{{value}}</span> </li>
+        </ul>
+      </div>
+
+
+
+
+      <div class="contact-block" data-wsjs-container>
+        <h2>Redes sociais</h2>
+        <span class="contact-social" data-wsjs-infos="socialMidia"></span>
+      </div>
+
+
+
+    </div>
+
+    <div class="contact-side">
+
+
+      <div class="contact-block contact-form">
+
+
+        <h1>Fale conosco</h1>
+        <div class="contact-message-container">
+          <div class="close-button" onclick="this.parentNode.setAttribute('style', 'display: none; opacity: 0;')">
+            <span data-wsjs-icon="close"></span>
+          </div>
+          <div class="contact-message"></div>
+        </div>
+
+        <form id="contact-form" data-wsjs-contact="container" onsubmit="return wsMain.modules['pag-contact'].sendContactForm()">
+          <fieldset class="contact-form-top">
+            <div data-wsjs-error-message="Preenchimento obrigat&oacute;rio.">
+              <label for="name" optional="(obrigat&oacute;rio)">Nome</label>
+              <input id="name" data-wsjs-contact="Nome" type="text" maxlength="50" required placeholder="Seu nome"/>
+            </div>
+            <div data-wsjs-error-message="Preenchimento obrigat&oacute;rio.">
+              <label for="email" optional="(obrigat&oacute;rio)">E-mail</label>
+              <input id="email" data-wsjs-contact="E-mail" type="email" maxlength="50" required placeholder="Seu e-mail"/>
+            </div>
+            <div data-wsjs-error-message="Preenchimento obrigat&oacute;rio.">
+              <label for="cell" optional="(obrigat&oacute;rio)">Celular</label>
+              <input id="cell" data-wsjs-contact="Telefone" type="text" required placeholder="(11) 98765-4321"/>
+            </div>
+            <!-- <div>
+              <label for="title">Assunto*</label>
+              <input id="title" data-wsjs-contact="Assunto" type="text" placeholder="Assunto" required/>
+            </div> -->
+          </fieldset>
+          <fieldset class="contact-form-bottom">
+            <div data-wsjs-error-message="Preenchimento obrigat&oacute;rio.">
+              <label for="message" optional="(obrigat&oacute;rio)">Mensagem</label>
+              <textarea id="message" data-wsjs-contact="Messagem" maxlength="1000" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            
+            <input class="button-third" type="submit" value="Enviar">
+
+          </fieldset>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>

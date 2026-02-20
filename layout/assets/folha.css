@@ -1,0 +1,35 @@
+header .header-top>.container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+/*CSS WS ADD*/
+header:not(.float-active) .header-top {
+    background-color: transparent;
+}
+
+header .header-top {
+    transition: background-color 0.5s ease-out;
+}
+
+header .header-top>.container>.content-header {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    max-width: 1500px;
+}
+
+[data-wsjs-indexcontainer] {
+    padding-top: 0 !important;
+}
+
+[data-poster-url] video, [data-poster-url] {
+    width: 100%;
+}

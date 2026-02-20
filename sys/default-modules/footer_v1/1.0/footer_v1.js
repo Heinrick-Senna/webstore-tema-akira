@@ -1,0 +1,1 @@
+/layouts/files/modulos/footer_v1/1.0/footer_v1.js

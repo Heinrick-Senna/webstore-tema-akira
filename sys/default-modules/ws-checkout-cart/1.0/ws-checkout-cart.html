@@ -1,0 +1,154 @@
+<script>let newCartVersion = true;</script> 
+
+<!-- dia 18-03-25 -->
+
+<div class="checkout-content startingCart">
+    <main>
+        <section class="alertaFreteGratis" ws-cart-app="freteGratis">
+            <div data-frete-grats-falta-x-vrsapp='true'></div>
+        </section>
+
+        <section class="app-suggestion" ws-cart-app="app-suggestion"></section>
+
+        <section class="itensCarrinho"></section>
+
+        <section data-ws-ancor="gifts" style="display:none;"></section>
+
+        <section class="frete" id="frete-section">
+            <div class="freteInput">
+                <h2>Calcule o frete</h2>
+                <div class="cepInput">
+                    <div class="cepInput__infos">
+                        <input type="text" cart-checkout-input="cep" placeholder="00000-000" id="cep" name="cep" maxlength="9">
+                        <button loaders-type="btn" btn-type="cep">Calcular</button>
+                        <div class="carrinhoLoader-container loaderOff" loaders-type="loadersContainer">
+                            <!-- <canvas class="progressCanvas" width="50" height="50"></canvas> -->
+                            <div class="new-loader"></div>
+                        </div>
+                    </div>
+                    <a href="http://www.buscacep.correios.com.br/" target="_blank" class="">N&atilde;o sei meu CEP</a>
+                </div>
+            </div>
+            <p class="errorMsgFrete">Frete indispon&iacute;vel para esta regi&atilde;o</p>
+            <div class="freteOpcoes"></div>
+        </section>
+
+        <section class="alertaFreteGratis-rodape" ws-cart-app="freteGratis">
+            <div data-frete-grats-falta-x-vrsapp-end='true'></div>
+        </section>
+
+        <section class="ws-cashback" ws-cart-app="ws-cashback">
+            <div class="cashback-app__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="33.038" height="33.037" viewBox="0 0 33.038 33.037">
+                    <path id="Caminho_12665" data-name="Caminho 12665" d="M415.047,184.361a1.474,1.474,0,0,0-.784-1.588l-3.193-1.642a4.3,4.3,0,0,1-2.264-4.647,4.166,4.166,0,0,1,3.436-3.406v-.746a1.417,1.417,0,0,1,2.834,0v1.061a5.208,5.208,0,0,1,2.845,2.77,1.417,1.417,0,1,1-2.6,1.129,2.435,2.435,0,0,0-2.447-1.454A1.4,1.4,0,0,0,411.593,177a1.451,1.451,0,0,0,.774,1.606l3.193,1.643a4.281,4.281,0,0,1,2.286,4.556,4.153,4.153,0,0,1-2.77,3.329v.789a1.417,1.417,0,0,1-2.834,0v-.711a5.25,5.25,0,0,1-3.544-3,1.417,1.417,0,1,1,2.6-1.129,2.439,2.439,0,0,0,2.446,1.453c.059,0,.116-.012.171-.021A1.347,1.347,0,0,0,415.047,184.361Zm9.945-15.481a16.534,16.534,0,0,0-21.569-1.531L402.1,166.02a1.273,1.273,0,0,0-2.164.747l-.73,6.032a1.272,1.272,0,0,0,1.417,1.416l6.03-.729a1.273,1.273,0,0,0,.748-2.164l-1.267-1.267a12.753,12.753,0,1,1-5.323,8.077.471.471,0,0,0-.457-.569h-2.88a.479.479,0,0,0-.473.4,16.525,16.525,0,1,0,28-9.083Zm0,0" transform="translate(-396.789 -164.059)" fill="#222" />
+                </svg>
+            </div>
+            <div class="cashback-app__infos">
+                <p class="cashback-app__infos__msg"><span>Ganhe R$ 0,00 de cashback</span></p>
+            </div>
+        </section>
+    </main>
+
+  <section class="resumo">
+    <h2>Resumo</h2>
+    <div class="resumoItem totalProdutos">
+      <p class="resumoItem__titulo">Total em produtos</p>
+      <p class="resumoItem__preco">R$ 234,99</p>
+      <p class="resumoItem__promo">R$ 234,99</p>
+    </div>
+    <div class="resumoItem taxaEntrega">
+      <p>Taxa de entrega</p>
+      <a href="#frete-section" class="calcular uncalculated">Calcular</a>
+      <p class="shipping-discount-resume" style="display: none">R$ 0,00</p>
+    </div>
+    <div class="resumoItem validCupomDiscount" style="display: none;">
+      <p class="validCupomDiscount__title">Cupom</p>
+      <p class="validCupomDiscount__value">R$ 0,00</p>
+    </div>
+    <div class="resumoItem descontoCalculado">
+      <p>Desconto</p>
+      <p>- R$ 0,00</p>
+    </div>
+    <div class="resumoItem inserirCupom">
+      <input type="checkbox" id="inserirCupom" name="inserirCupom">
+      <label for="inserirCupom">Inserir cupom</label>
+      <div class="inserirCupom-container">
+        <input type="text" name="cupomParaEnviar" cart-checkout-input="cupom" id="cupomParaEnviar" placeholder="Digite seu cupom" maxlength="100">
+        <button class="buttonInserirCupom" loaders-type="btn" btn-type="cupom">OK</button>
+        <div class="carrinhoLoader-container loaderOff" loaders-type="loadersContainer">
+          <!-- <canvas class="progressCanvas" width="50" height="50"></canvas> -->
+          <div class="new-loader"></div>
+        </div>
+      </div>
+      <p class="errorMsgCupom hiddenMessageCupom">Cupom inv&aacute;lido</p>
+    </div>
+    <div class="resumoItem usar-cashback resume-bottom-border">
+      <span class="usar-cashback__login">Possui cashback? <a href="/login">Clique para fazer login</a></span>
+      <span class="usar-cashback__use-cashback" style="display: none">Voc&ecirc; possui <span class="cashback-value">$0,00</span> de cashback. <span class="cashback-btn">Clique para usar</span></span>
+    </div>
+    <div class="resumoItemTotal">
+      <p>Total do pedido</p>
+      <p class="totalPedido">R$ 234,99</p>
+    </div>
+    <div class="resumoItem descontoem1x" style="display: none;">
+      <p></p>
+    </div>
+    <div class="resumoItem parcelas">
+      <p>ou em 3x sem juros de</p>
+      <p>R$ 234,99</p>
+    </div>
+    <div class="resumoItem pixBoleto">
+      <p>
+        <span class="totalPedido">R$ 234,99</span>
+        <span class="pixBoleto__msg"></span> 
+        <span class="discount">-5%</span>
+      </p>
+    </div>
+    <button class="buttonFinalizar">
+      <div class="carrinhoLoader-container loaderOff" loaders-type="loadersContainer">
+        <!-- <canvas class="progressCanvas" width="50" height="50"></canvas> -->
+        <div class="new-loader"></div>
+      </div>
+    </button>
+  </section>
+
+  <div class="voltarCompras popupHidden">
+    <p>N&atilde;o h&aacute; itens no seu carrinho</p>
+    <a href="/">Voltar as compras</a>
+  </div>
+</div>
+
+<div class="removerConfirmacao popupHidden" id="product-popup">
+  <div class="removerConfirmacao__popup">
+    <span class="removerConfirmacao__popup__fechar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14.828" height="14.828" viewBox="0 0 14.828 14.828">
+        <path id="Caminho_8519" data-name="Caminho 8519" d="M978,2308l-12,12m0-12,12,12" transform="translate(-964.586 -2306.586)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </svg>      
+    </span>
+    <p class="removerConfirmacao__popup__title">Remover o produto</p>
+    <p class="removerConfirmacao__popup__subTitle">Voc&ecirc; deseja remover este item do carrinho?</p>
+    <div class="removerConfirmacao__popup__btns">
+      <button class="removerConfirmacao__btn__remover">Remover</button>
+      <button class="removerConfirmacao__btn__cancelar">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+<div class="float-resume">
+  <div class="float-resume__infos">
+    <div class="float-resume__infos__produtos">
+      <p class="float-resume__infos__produtos__label">Produtos (1)</p>
+      <p class="float-resume__infos__produtos__preco">R$0,00</p>
+    </div>
+    <div class="float-resume__infos__frete">
+      <p class="float-resume__infos__frete__label">Frete</p>
+      <a href="#frete-section" class="float-resume__infos__frete__preco uncalculated">Calcular</a>
+    </div>
+  </div>
+  <div class="float-resume-prices">
+    <div class="float-resume-price__total">
+      <p class="float-resume-price__total__label">Total</p>
+      <p class="float-resume-price__total__price">R$ 0,00</p>
+    </div>
+  </div>
+</div>

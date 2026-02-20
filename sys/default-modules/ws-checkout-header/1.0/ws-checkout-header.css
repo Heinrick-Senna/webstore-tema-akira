@@ -1,0 +1,255 @@
+/* css 17-01-25 */
+#ws-carrinhoNovo header {
+  box-shadow: 0px 0px 10px #00000029;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-header);
+  border-bottom: 0.1rem solid #ddd;
+  height: 10rem !important;
+  z-index: 3;
+  padding: 0.5rem 2rem;
+  position: fixed;
+  width: 100%;
+  flex-direction: row;
+  transition: ease 400ms;
+}
+
+#ws-carrinhoNovo header.menor {
+  height: 8rem;
+}
+
+#ws-carrinhoNovo .logo {
+  height: 100%;
+  width: 20rem;
+  max-width: 20rem;
+}
+
+#ws-carrinhoNovo .logo a {
+  width: fit-content;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+}
+
+#ws-carrinhoNovo .logo a img {
+  height: initial;
+  width: initial;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#ws-carrinhoNovo .progresso-barra {
+  display: flex;
+  justify-content: space-between;
+  width: 47rem;
+  position: relative;
+  margin-top: 2.7rem;
+}
+
+
+#ws-carrinhoNovo .progresso-barra .progresso-barra__barraFundo {
+  background-color: var(--color-header);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#ws-carrinhoNovo .progresso-barra .progresso-barra__barraContainer {
+  width: 43rem;
+  height: .3rem;
+  left: 2rem;
+  position: absolute;
+  top: 0.7rem;
+}
+
+#ws-carrinhoNovo .progresso-barra .progresso-barra__barraContainer .progresso-barra__conteudo {
+  position: absolute;
+  background-color: var(--color-header);
+  height: 100%;
+}
+
+#ws-carrinhoNovo .progresso-barra .progresso>span {
+  font-size: 1rem;
+  color: var(--color-header);
+}
+
+#ws-carrinhoNovo .progresso-barra .progresso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+#ws-carrinhoNovo .progresso .bolinha.bolinhaActive {
+  border: 2px solid var(--color-header);
+  background-color: var(--color-header);
+  position: relative;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+#ws-carrinhoNovo .progresso .bolinha svg {
+  display: none;
+}
+
+#ws-carrinhoNovo .progresso .bolinha svg {
+  stroke: var(--bg-header);
+}
+
+#ws-carrinhoNovo .progresso .bolinha.bolinhaActive:not(.bolinhaMainActive) svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 0.6rem;
+  width: 100%;
+}
+
+#ws-carrinhoNovo .progresso .bolinha.bolinhaActive.bolinhaMainActive {
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: var(--color-header);
+}
+
+#ws-carrinhoNovo .progresso .bolinha {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--color-header);
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: var(--bg-header);
+}
+
+#ws-carrinhoNovo .progresso {
+  font-size: 1rem;
+}
+
+#ws-carrinhoNovo .seguro {
+  font-size: 1.2rem;
+  color: var(--color-header);
+  font-weight: bold;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  width: 20rem;
+}
+
+#ws-carrinhoNovo .seguro svg {
+  fill: var(--color-header);
+  width: 2.2rem;
+  height: 3rem;
+}
+
+/* mobile */
+#ws-carrinhoNovo .mobile__progresso-barra {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 12rem 2rem 2rem 2rem;
+}
+
+#ws-carrinhoNovo .mobile__progresso-barra .progresso-barra .progresso-barra__barraFundo {
+  background-color: #222;
+}
+
+#ws-carrinhoNovo .mobile__progresso-barra .progresso-barra .progresso-barra__barraContainer .progresso-barra__conteudo {
+  background-color: #222;
+}
+
+#ws-carrinhoNovo .mobile__progresso-barra .progresso-barra .progresso>span {
+  color: #222;
+}
+
+#ws-carrinhoNovo .mobile__progresso-barra  .progresso .bolinha{
+  border: 2px solid #222222;
+  background-color: #ffffff;
+}
+
+#ws-carrinhoNovo .mobile__progresso-barra .progresso .bolinha.bolinhaActive {
+  background-color: #222222;
+  border: 2px solid rgba(34, 34, 34);
+}
+
+#ws-carrinhoNovo .mobile__progresso-barra .progresso .bolinha.bolinhaActive.bolinhaMainActive {
+  background-color: #222;
+  border: 2px solid rgba(34, 34, 34);
+}
+
+#ws-carrinhoNovo .progresso .bolinha svg {
+  stroke: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  #ws-carrinhoNovo .progresso-barra .progresso-barra__barraContainer {
+    width: calc(100% - 4.8rem);
+  }
+
+  #ws-carrinhoNovo .progresso-barra {
+    width: 100%;
+  }
+
+  #ws-carrinhoNovo .seguro {
+    width: 40%;
+  }
+
+  #ws-carrinhoNovo header>.progresso-barra {
+    display: none;
+  }
+  
+  #ws-carrinhoNovo .mobile__progresso-barra {
+    display: flex;
+  }
+
+  #ws-carrinhoNovo .progresso .bolinha.bolinhaActive:not(.bolinhaMainActive) svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    height: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #ws-carrinhoNovo header {
+    position: relative;
+  }
+
+  #ws-carrinhoNovo .seguroText {
+    max-width: 10rem;
+    line-height: 1.4rem;
+  }
+
+  #ws-carrinhoNovo .mobile__progresso-barra {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #ws-carrinhoNovo header {
+    gap: 2rem;
+  }
+
+  #ws-carrinhoNovo .seguro {
+    width: 100%;
+  }
+
+  #ws-carrinhoNovo .progresso .bolinha.bolinhaActive:not(.bolinhaMainActive) svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    height: 0.6rem;
+  }
+}

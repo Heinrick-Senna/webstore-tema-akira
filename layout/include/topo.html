@@ -1,0 +1,48 @@
+<!--##CLEAR_CSS##-->
+<header data-wsjs-options="float: true;">
+
+  <div class="header-top">
+    <div class="container">
+
+      <div class="logo-header" data-min-height="5.1rem" data-max-height="5.1rem">
+        <!--##LOGOTIPO##-->
+      </div>
+
+      <div class="content-header" style="display: flex;">
+        <div class="categories-header">
+          <span class="nav-header" data-wsjs-module="categorias" role="navigation"
+            data-wsjs-options="dropDown: true;megaMenu:true;allCats: true;hoverMode:false;"></span>
+        </div>
+  
+        <div class="options-header">
+          <div class="search-header">
+            <div>
+              <input type="text" class="input-busca" id="input-busca" value="" placeholder="Busca" maxlength="50"
+                autocomplete="off"
+                onkeydown="event.key == 'Enter' && event.target.value != '' ? FuncaoBuscaBotao('input-busca') : null">
+              <button title="Buscar"
+                onclick="this.parentNode.querySelector('#input-busca').value != '' ? FuncaoBuscaBotao('input-busca') : null"
+                type="submit" class="botao-busca-header">
+                <span data-wsjs-icon="Search">
+              </button>
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <nav class="header-bottom nav-header">
+      <div class="container">
+        <span class="nav-header" data-wsjs-module="categorias" role="navigation" data-wsjs-options="dropDown: true;megaMenu:true;allCats: false;"></span>
+      </div>
+    </nav> -->
+
+</header>
+
+
+<div id="overlay" data-wsjs-cart="overlay-holder"
+  onclick="wsMain.modules['cart-drawer'].changeState(true) ; wsMain.modules['login-options'].open(true)"></div>

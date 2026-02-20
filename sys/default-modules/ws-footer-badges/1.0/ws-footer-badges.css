@@ -1,0 +1,43 @@
+[data-wsjs-badges] {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+    [data-wsjs-badges] .badge-holder {
+        height: 4rem;
+        aspect-ratio: 6/2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        text-align:center;
+    }
+
+    [data-wsjs-badges] li {
+        border-radius: 1rem;
+        padding: 1rem;
+        align-items: center;
+        display: flex;
+        min-width: 15rem;
+        background-color: white;
+    }
+
+        [data-wsjs-badges] li a {
+            text-align: center;
+        }
+
+        [data-wsjs-badges] li#GoogleSafeBrowsing,
+        [data-wsjs-badges] li#SSLLetsEncrypt {
+            background-color: white;
+        }
+
+
+    [data-wsjs-badges] .badge-holder img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        width: auto;
+    }

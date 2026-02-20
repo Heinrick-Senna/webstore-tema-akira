@@ -1,0 +1,1 @@
+/layouts/files/modulos/fonts/1.0/fonts.js

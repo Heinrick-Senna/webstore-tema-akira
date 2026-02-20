@@ -1,0 +1,51 @@
+<a data-wsjs-cart="button" data-wsjs-options="mobile: true;">
+  <span data-wsjs-icon="cart"></span>
+  <span data-wsjs-cart="counter" class="cart-prod-counter"></span>
+</a>
+
+<div data-wsjs-cart="holder" class="cart-holder" style="display: none;">
+  <div class="mobile-menu-side">
+    <span onclick="wsMain.modules['cart-drawer'].changeState()">
+      <span data-wsjs-icon="close"></span>
+    </span>
+  </div>
+  <div class="mobile-menu-side">
+    <div class="cart-holder-header">
+      <h2>Meu carrinho</h2>
+    </div>
+    <div data-wsjs-cart="items-holder" class="cart-items-holder">
+        <a data-wsjs-cart="template" href="javascript:;">
+          <div class="cart-top-item-holder">
+            <div class="cart-item-image-holder">
+              <span data-wsjs-cart="photo_url"></span>
+            </div>
+            <div class="cart-info-container">
+              <div class="cart-info-name">
+                <span data-wsjs-cart="name"></span>
+                <div data-wsjs-cart="variation"></div>
+                <div data-wsjs-cart="variation"></div>
+                <div data-wsjs-cart="variation"></div>
+              </div>
+              <div class="cart-info-price">
+                <span>
+                  Quantidade: <span data-wsjs-cart="qtd"></span>
+                </span>
+                <span data-wsjs-cart="price"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-bottom-item-holder">
+          </div>
+        </a>
+    </div>
+    <div data-wsjs-cart="default-message" class="cart-default-message">
+      <span>Seu carrinho est&aacute; vazio.</span>
+    </div>
+    <div data-wsjs-cart="bottom-message" class="cart-default-message">
+      <div class="total-holder" data-wsjs-cart="total"><b>Total sem frete: {{value}}</b></div>
+      <a class="button-main" data-wsjs-cart="link" class="cart-button">Finalizar compra</a>
+      <span class="close-link" onclick="wsMain.modules['cart-drawer'].changeState()">voltar &agrave;s compras</span>
+    </div>
+  </div>
+</div>

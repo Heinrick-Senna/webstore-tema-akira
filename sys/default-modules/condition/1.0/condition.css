@@ -1,0 +1,52 @@
+.condition-row {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-condition);
+}
+
+.condicoes-loja {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+}
+
+.condicoes-loja .condicao-item {
+  width: 18.4%;
+}
+
+.condicoes-loja .condicao-item > a {
+  width: 100%;
+}
+
+.condicoes-loja .condicao-item, .condicoes-loja .condicao-item > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.condicoes-loja .condicao-icone {
+    height: 2.25rem;
+    margin: 1rem;
+}
+
+.condicoes-loja .condicao-textos {
+  text-align: center;
+}
+
+.condicoes-loja .condicao-icone svg {
+    height: 2.7rem;
+    color: var(--color-icon-condition);
+    fill: var(--color-icon-condition);
+}
+
+.condicoes-loja .condicao-titulo {
+  margin-bottom: 0;
+  color: var(--color-title-condition);
+}
+
+.condicoes-loja .condicao-subtitulo {
+  color: var(--color-subtitle-condition);
+}

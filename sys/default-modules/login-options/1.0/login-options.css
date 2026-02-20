@@ -1,0 +1,111 @@
+.login-options-container .login-options-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: var(--margin-all);
+    background-color: var(--bg-input-header);
+    align-content: center;
+    min-width: 18.6rem;
+    min-height: 4.4rem;
+    cursor: pointer;
+}
+
+.login-options-container .login-options-list span {
+  font-weight: bold;
+}
+
+.login-options-container .login-options-button .login-options-arrow-span {
+    transform: rotateZ(90deg);
+    font-weight: bolder;
+    transition: 200ms ease;
+}
+
+.login-options-button > div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  column-gap: 1rem;
+}
+
+.login-options-container {
+    position: relative;
+}
+
+.login-options-container svg {
+  fill: var(--color-input-header);
+  color: var(--color-input-header);
+}
+
+.login-options-container .login-options-user-name {
+  transition: .2s ease;
+  color: var(--color-input-header);
+}
+
+.login-options-container .login-options-list {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    transition: 200ms ease;
+    width: calc(100% + 4rem);
+}
+
+.login-options-container .login-options-list > div:first-child {
+  padding-bottom: 2rem;
+  row-gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: .1rem solid #e1e1e1;
+}
+
+.login-options-container .login-options-list > div:last-child {
+  row-gap: 1rem;
+}
+
+
+.login-options-container .login-options-list > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-options-container:hover .login-options-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.login-options-container:hover .login-options-arrow-span {
+    transform: rotate(270deg);
+}
+
+.login-options-container .login-options-default {
+    width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.login-options-container .login-options-default span p:first-child {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: .1rem solid #e1e1e1;
+}
+
+.login-options-container .login-options-logged {
+  min-width: 25rem;
+  width: fit-content;
+  display: block;
+  padding: 2rem;
+  border-left: var(--margin-all);
+}
+
+.login-options-container .login-options-logged a {
+  display: block;
+}
+
+.login-options-container .login-options-logged a:not(:last-child) {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,116 @@
+<!--###TOPO###-->
+
+<section class="category-search-list">
+  <div class="container">
+    <span class="breadcrumb-container" data-wsjs-listing="breadcrumb"></span>
+    <span class="searchResults-container" data-wsjs-listing="searchResults"></span>
+  </div>
+
+  <div class="container">
+    <span data-wsjs-banner="topo" data-wsjs-slide=""></span>
+  </div>
+
+  <div class="container">
+
+    <div class="filter-container" style="opacity: 0;">
+      <div data-wsjs-listMode="4|1,5|1,3,7">
+        <div class="combo-ordem-holder" data-wsjs-listMode="1">
+          <label for="viewing-order">Ordenar por</label>
+          <span class="combo-ordem">
+            <span data-wsjs-listing="order" id="viewing-order">
+              <option value="5" data-wsjs-listMode="5">Relev&acirc;ncia</option>
+              <option value="3">Menor pre&ccedil;o</option>
+              <option value="4">Maior pre&ccedil;o</option>
+              <option value="1">A - Z</option>
+              <option value="2">Z - A</option>
+            </span>
+          </span>
+        </div>
+        
+        <span class="category-filter" data-wsjs-listing="categoryFilter" data-wsjs-listMode="2|4|5|1,3"><h3>Filtrar por</h3></span>
+        
+        <nav class="category-actual-menu" data-wsjs-listMode="5|7">
+          <span data-wsjs-listing="categoryName" data-wsjs-options="type: h3;"></span>
+          <span data-wsjs-listing="categorias" data-wsjs-module="categorias" role="navigation" data-wsjs-options="atual: true;megaMenu: false;hoverMode: false;" ></span>
+        </nav>
+      </div>
+
+      <nav>
+        <span data-wsjs-module="categorias" role="navigation" data-wsjs-options="megaMenu: false;hoverMode: false;custom: false;"><h2>Categorias</h2></span>
+      </nav>
+    </div>
+
+    <div class="list-container">
+      <span data-wsjs-prod-list="category" data-wsjs-options="container:false; button: true;"></span>
+
+      <div class="category-pagination-container" data-wsjs-listMode="1" data-wsjs-pagination="container">
+        <span data-wsjs-listing="prodsNum">{{value}} itens</span>
+        <div class="category-pagination-buttons">
+          <span class="arrow-first" data-wsjs-listing="firstPage">
+
+            <!-- Seta Dupla Para Esquerda -->
+            <span data-wsjs-icon="arrow"></span>
+            <span data-wsjs-icon="arrow"></span>
+            
+          </span>
+
+          <span class="arrow-prev" data-wsjs-listing="prevPage">
+
+            <!-- Seta Para Esquerda -->
+            <span data-wsjs-icon="arrow"></span>
+          
+          </span>
+
+          <div class="category-pagination-values">
+
+            <span data-wsjs-listing="actualPage">{{value}}</span>
+            <span data-wsjs-listing="pagesNum">de {{value}}</span>
+            
+          </div>
+
+          <span class="arrow-next" data-wsjs-listing="nextPage">
+
+            <!-- Seta Para Direita -->
+            <span data-wsjs-icon="arrow"></span>
+
+          </span>
+
+          <span class="arrow-last" data-wsjs-listing="lastPage">
+
+            <!-- Seta Dupla Para Direita -->
+            <span data-wsjs-icon="arrow"></span>
+            <span data-wsjs-icon="arrow"></span>
+
+          </span>
+        </div>
+      </div>
+      
+      <span data-wsjs-banner="category_description" style="opacity: 0;"><span data-wsjs-listing="categoryName" data-wsjs-options="type: h1;"></span> {{value}} </span>
+    </div>
+  </div>
+</section>
+
+<div class="banner-row">
+  <div class="container">
+      <span data-wsjs-banner="rodape" data-wsjs-slide=""></span>     
+  </div>
+</div>
+
+<div class="template-empty-category" data-wsjs-prod-list="template-empty-category" style="display: none;">
+  <h2>Ainda n&atilde;o temos produtos nesta categoria</h2>
+  <p>N&atilde;o se preocupe, temos muitos outros produtos para mostrar &agrave; voc&ecirc;.</p>
+  <a href="/" class="button-third">Ir &agrave;s compras</a>
+</div>
+
+<div class="template-empty-search" data-wsjs-prod-list="template-empty-search" style="display: none;">
+  <h2>Nenhum produto Encontrado</h2>
+  <p>N&atilde;o localizamos nenhum produto relacionados a {{value}}.</p>
+  <a href="/" class="button-third">Ir &agrave;s compras</a>
+</div>
+
+<div data-wsjs-module="prod-template" class="hidden">
+    <!--##WS-PROD-TEMPLATE2.0##-->
+</div>
+
+<!--###RODAPE###-->
+<!--###COMPLEMENTO###-->
