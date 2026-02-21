@@ -217,6 +217,24 @@
   ],
   "grupoPreferencias": [
     {
+      "grupo": "Tema Personalizado",
+      "variaveis": [
+        {
+          "id": "bg-header-var",
+          "tipo": "text",
+          "titulo": "Texto da tarja",
+          "titulo_subgrupo": "Geral",
+          "padrao": "Teste",
+          "pref_dependency_id": null,
+          "objetos": [],
+          "un": null,
+          "min": 0,
+          "max": 255,
+          "opcoes": []
+        }
+      ]
+    },
+    {
       "grupo": "Topo",
       "variaveis": [
         {
