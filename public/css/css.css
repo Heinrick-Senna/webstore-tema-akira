@@ -3768,6 +3768,20 @@ header .header-top>.container>.content-header {
     padding-top: 0 !important;
 }
 
-[data-poster-url] video, [data-poster-url] {
+[data-poster-url] video,
+[data-poster-url] {
     width: 100%;
 }
+
+.condicoes-loja .condicao-item,
+.condicoes-loja .condicao-item .condicao-icone,
+.condicoes-loja .condicao-item .condicao-subtitulo {
+    display: none;
+}
+
+.condicoes-loja .condicao-item-0,
+.condicoes-loja .condicao-item-1 {
+    display: flex;
+}
+
+.condicoes-loja .condicao-item-0 {}
