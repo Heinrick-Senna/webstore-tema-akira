@@ -17,6 +17,17 @@ header .header-top>.container>.content-header {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+#BodyPage.homepage {
+  line-height: 0 !important;
+  font-size: 0 !important;
+  color: transparent !important;
+}
+#BodyPage.homepage #DivResponse {
+  font-size: 1.4rem;
+  font-family: var(--bodyFont), Arial, sans-serif;
+  line-height: 2.4rem;
+  color: var(--bodyColor);
+}
 .container {
   max-width: 1500px;
 }
@@ -122,6 +133,34 @@ header .header-top>.container>.content-header {
 }
 [id="banner-9"] a {
   width: 100%;
+}
+footer {
+  margin: 0 auto;
+  background-color: transparent;
+  display: flex;
+  gap: 15%;
+  flex-direction: row;
+  align-items: start;
+}
+footer .newsletter-holder-ws {
+  flex-direction: column;
+}
+footer .logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+@media screen and (min-width:1200px) {
+  footer {
+    padding-top: 60px!important;
+    padding-bottom: 60px!important;
+  }
+}
+@media screen and (min-width:769px) {
+  footer {
+    padding-top: 60px!important;
+    padding-bottom: 60px!important;
+  }
 }
 /*CSS WS ADD*/
 [data-wsjs-draginner] [data-wsjs-id="image-0"] .text-content h2 {

@@ -69,6 +69,11 @@
       "etapa": "*"
     },
     {
+      "nome": "ws-library-animate-on-scroll",
+      "versao": "1.0",
+      "etapa": "*"
+    },
+    {
       "nome": "ws-wirestyle",
       "versao": "1.0",
       "etapa": "*"
@@ -216,24 +221,6 @@
     }
   ],
   "grupoPreferencias": [
-    {
-      "grupo": "Tema Personalizado",
-      "variaveis": [
-        {
-          "id": "bg-header-var",
-          "tipo": "text",
-          "titulo": "Texto da tarja",
-          "titulo_subgrupo": "Geral",
-          "padrao": "Teste",
-          "pref_dependency_id": null,
-          "objetos": [],
-          "un": null,
-          "min": 0,
-          "max": 255,
-          "opcoes": []
-        }
-      ]
-    },
     {
       "grupo": "Topo",
       "variaveis": [
@@ -1120,12 +1107,12 @@
       "id": "bg-header-var",
       "tipo": "color",
       "legenda": null,
-      "valor": "ffffffff"
+      "valor": "000000ff"
     },
     {
       "id": "color-header-var",
       "tipo": "color",
-      "valor": "000000ff",
+      "valor": "ffffffff",
       "legenda": null
     },
     {
@@ -1143,13 +1130,13 @@
     {
       "id": "bg-menu-var",
       "tipo": "color",
-      "valor": "ffffff",
+      "valor": "ffffff00",
       "legenda": null
     },
     {
       "id": "color-menu-var",
       "tipo": "color",
-      "valor": "fffffff",
+      "valor": "000000ff",
       "legenda": null
     },
     {
@@ -1293,13 +1280,13 @@
     {
       "id": "font-body",
       "tipo": "font-type",
-      "valor": "Arial",
+      "valor": "Oswald",
       "legenda": null
     },
     {
       "id": "bg-body",
       "tipo": "color",
-      "valor": "FFFFFF",
+      "valor": "000000ff",
       "legenda": null
     },
     {

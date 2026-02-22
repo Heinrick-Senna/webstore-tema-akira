@@ -1,72 +1,29 @@
-<footer>
-    <div class="container sociais">
-      <div data-wsjs-container>
-        <h3>Nos acompanhe nas redes sociais</h3>
-        <span class="social-footer" data-wsjs-infos="socialMidia"></span>
+<footer class="container" data-aos="fade-up">
+  <div class="logo-footer" data-min-height="5.1rem" data-max-height="5.1rem">
+    <!--##LOGOTIPO##-->
+  </div>
+  <div data-wsjs-container>
+    <h3>SUPORTE</h3>
+    <span class="list-footer" data-wsjs-infos="institutional"></span>
+  </div>
+  <div data-wsjs-container>
+    <h3>PRODUTO</h3>
+    <span class="list-footer" data-wsjs-infos-v2="institutional"></span>
+  </div>
+  <div class="container newsletter-holder-ws">
+    <h3>NEWSLETTER</h3>
+    <p>Saiba das novidades, lançamentos e ofertas, cadastre-se!</p>
+    <form id="newsletter" data-wsjs-newsletter="container">
+      <div class="input-container">
+        <input id="newsName" type="text" placeholder="Digite seu nome" minlength="3" maxlength="50" required="">
+        <label for="newsName">Digite seu nome</label>
       </div>
-    </div>
-    <div class="container top-half">
-        <div data-wsjs-container>
-            <h3>Atendimento</h3>
-            <ul class="list-footer contact-footer">
-              <li data-wsjs-container>
-                <span data-wsjs-infos="mainPhone">
-                  <span data-wsjs-icon="telephone"></span>
-                  {{value}}
-                </span>
-              </li>
-              <li data-wsjs-container>
-                <span data-wsjs-infos="whatsapp">
-                  <span data-wsjs-icon="whatsapp"></span>
-                  {{value}}
-                </span>
-              </li>
-              <li data-wsjs-container>
-                <span data-wsjs-infos="mainEmail">
-                  <span data-wsjs-icon="email"></span>
-                  {{value}}
-                </span>
-              </li>
-              <li data-wsjs-container>
-                <span data-wsjs-infos="commercialHours" class="commercialHours">
-                  <span>
-                    <span data-wsjs-icon="watch"></span>
-                    Hor&aacute;rio de atendimento
-                  </span>
-                  {{value}}
-                </span>
-              </li>
-              <li data-wsjs-container>
-                <span data-wsjs-infos="sac">Fale conosco</span>
-              </li>
-            </ul>
-        </div>
-        <div data-wsjs-container>
-            <h3>Institucional</h3>
-            <span class="list-footer" data-wsjs-infos="institutional"></span>
-        </div>
-        <div class="container newsletter-holder-ws">
-          <h3>Cadastre-se em nossa newsletter</h3>
-          <form id="newsletter" data-wsjs-newsletter="container">
-            <div class="input-container">
-              <input id="newsName" type="text" placeholder="Digite seu nome" minlength="3" maxlength="50" required="">
-              <label for="newsName">Digite seu nome</label>
-            </div>
-            <div class="input-container">
-              <input id="newsMail" type="email" placeholder="Digite seu e-mail" maxlength="50" required="">
-              <label for="newsMail">Digite seu e-mail</label>
-            </div>
-            <div class="newsletter-message">Esta é uma mensagem</div>
-            <button class="button-third" type="submit">Cadastrar</button>
-          </form>
-        </div>
-    </div>
-    <div class="container bottom-half">
-        <div>
-          <ul data-wsjs-badges></ul>
-        </div>
-        <div data-wsjs-container>
-            <span data-wsjs-infos="paymentBadges" class="payment-methods-list"></span>
-        </div>
-    </div>
+      <div class="input-container">
+        <input id="newsMail" type="email" placeholder="Digite seu e-mail" maxlength="50" required="">
+        <label for="newsMail">Digite seu e-mail</label>
+      </div>
+      <div class="newsletter-message">Esta é uma mensagem</div>
+      <button class="button-third" type="submit">Cadastrar</button>
+    </form>
+  </div>
 </footer>
