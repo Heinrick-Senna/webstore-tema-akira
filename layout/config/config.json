@@ -69,11 +69,6 @@
       "etapa": "*"
     },
     {
-      "nome": "ws-library-animate-on-scroll",
-      "versao": "1.0",
-      "etapa": "*"
-    },
-    {
       "nome": "ws-wirestyle",
       "versao": "1.0",
       "etapa": "*"
@@ -1112,326 +1107,326 @@
     {
       "id": "color-header-var",
       "tipo": "color",
-      "valor": "ffffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffffff"
     },
     {
       "id": "bg-input-header-var",
       "tipo": "color",
-      "valor": "f1f1f1",
-      "legenda": null
+      "legenda": null,
+      "valor": "f1f1f1"
     },
     {
       "id": "color-input-header-var",
       "tipo": "color",
-      "valor": "000000ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "000000ff"
     },
     {
       "id": "bg-menu-var",
       "tipo": "color",
-      "valor": "ffffff00",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffff00"
     },
     {
       "id": "color-menu-var",
       "tipo": "color",
-      "valor": "000000ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "000000ff"
     },
     {
       "id": "bg-hover-menu-var",
       "tipo": "color",
-      "valor": "444444",
-      "legenda": null
+      "legenda": null,
+      "valor": "444444"
     },
     {
       "id": "color-hover-menu-var",
       "tipo": "color",
-      "valor": "ffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffff"
     },
     {
       "id": "bg-condition-var",
       "tipo": "color",
-      "valor": "ffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffff"
     },
     {
       "id": "color-icon-condition-var",
       "tipo": "color",
-      "valor": "F84343",
-      "legenda": null
+      "legenda": null,
+      "valor": "F84343"
     },
     {
       "id": "color-title-condition-var",
       "tipo": "color",
-      "valor": "393939ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939ff"
     },
     {
       "id": "color-subtitle-condition-var",
       "tipo": "color",
-      "valor": "393939ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939ff"
     },
     {
       "id": "photowrap-var",
       "tipo": "option",
-      "valor": "1/1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1/1"
     },
     {
       "id": "prodperline-var",
       "tipo": "option",
-      "valor": "4",
-      "legenda": null
+      "legenda": null,
+      "valor": "4"
     },
     {
       "id": "prodperline-categorie-var",
       "tipo": "option",
-      "valor": "3",
-      "legenda": null
+      "legenda": null,
+      "valor": "3"
     },
     {
       "id": "mobileHasBeenEdited-var",
       "tipo": "option",
-      "valor": "false",
-      "legenda": null
+      "legenda": null,
+      "valor": "false"
     },
     {
       "id": "prodbutton-var",
       "tipo": "option",
-      "valor": "false",
-      "legenda": null
+      "legenda": null,
+      "valor": "false"
     },
     {
       "id": "bg-prod-list-var",
       "tipo": "color",
-      "valor": "ffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffff"
     },
     {
       "id": "color-title-prod-list-var",
       "tipo": "color",
-      "valor": "393939",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939"
     },
     {
       "id": "color-subtitle-prod-list-var",
       "tipo": "color",
-      "valor": "393939",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939"
     },
     {
       "id": "bg-manufacturer-var",
       "tipo": "color",
-      "valor": "FFFFFF",
-      "legenda": null
+      "legenda": null,
+      "valor": "FFFFFF"
     },
     {
       "id": "bg-newsletter-var",
       "tipo": "color",
-      "valor": "ffe5e5ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffe5e5ff"
     },
     {
       "id": "color-title-newsletter-var",
       "tipo": "color",
-      "valor": "393939",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939"
     },
     {
       "id": "color-subtitle-newsletter-var",
       "tipo": "color",
-      "valor": "393939",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939"
     },
     {
       "id": "bg-input-newsletter-var",
       "tipo": "color",
-      "valor": "FFFFFF",
-      "legenda": null
+      "legenda": null,
+      "valor": "FFFFFF"
     },
     {
       "id": "color-input-newsletter-var",
       "tipo": "color",
-      "valor": "393939",
-      "legenda": null
+      "legenda": null,
+      "valor": "393939"
     },
     {
       "id": "bg-footer-var",
       "tipo": "color",
-      "valor": "F84343",
-      "legenda": null
+      "legenda": null,
+      "valor": "F84343"
     },
     {
       "id": "color-title-footer-var",
       "tipo": "color",
-      "valor": "ffffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffffff"
     },
     {
       "id": "color-subtitle-footer-var",
       "tipo": "color",
-      "valor": "ffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffff"
     },
     {
       "id": "font-body",
       "tipo": "font-type",
-      "valor": "Oswald",
-      "legenda": null
+      "legenda": null,
+      "valor": "Oswald"
     },
     {
       "id": "bg-body",
       "tipo": "color",
-      "valor": "000000ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "000000ff"
     },
     {
       "id": "bg-tarja-prod-var",
       "tipo": "color",
-      "valor": "b61313ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "b61313ff"
     },
     {
       "id": "color-tarja-prod-var",
       "tipo": "color",
-      "valor": "ffffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffffff"
     },
     {
       "id": "bg-arrows-var",
       "tipo": "color",
-      "valor": "F84343",
-      "legenda": null
+      "legenda": null,
+      "valor": "F84343"
     },
     {
       "id": "color-arrows-var",
       "tipo": "color",
-      "valor": "ffffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffffff"
     },
     {
       "id": "bg-button-buyNow-var",
       "tipo": "color",
-      "valor": "b61313ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "b61313ff"
     },
     {
       "id": "color-button-buyNow-var",
       "tipo": "color",
-      "valor": "FFFFFF",
-      "legenda": null
+      "legenda": null,
+      "valor": "FFFFFF"
     },
     {
       "id": "typeBorder-button-buyNow-var",
       "tipo": "option",
-      "valor": "none",
-      "legenda": null
+      "legenda": null,
+      "valor": "none"
     },
     {
       "id": "sizeBorder-button-buyNow-var",
       "tipo": "number",
-      "valor": "1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1"
     },
     {
       "id": "radiusBorder-button-buyNow-var",
       "tipo": "number",
-      "valor": "1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1"
     },
     {
       "id": "colorBorder-button-buyNow-var",
       "tipo": "color",
-      "valor": "000000",
-      "legenda": null
+      "legenda": null,
+      "valor": "000000"
     },
     {
       "id": "bg-button-buyLater-var",
       "tipo": "color",
-      "valor": "F84343",
-      "legenda": null
+      "legenda": null,
+      "valor": "F84343"
     },
     {
       "id": "color-button-buyLater-var",
       "tipo": "color",
-      "valor": "ffffff",
-      "legenda": null
+      "legenda": null,
+      "valor": "ffffff"
     },
     {
       "id": "typeBorder-button-buyLater-var",
       "tipo": "option",
-      "valor": "none",
-      "legenda": null
+      "legenda": null,
+      "valor": "none"
     },
     {
       "id": "sizeBorder-button-buyLater-var",
       "tipo": "number",
-      "valor": "1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1"
     },
     {
       "id": "radiusBorder-button-buyLater-var",
       "tipo": "number",
-      "valor": "1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1"
     },
     {
       "id": "colorBorder-button-buyLater-var",
       "tipo": "color",
-      "valor": "00000000",
-      "legenda": null
+      "legenda": null,
+      "valor": "00000000"
     },
     {
       "id": "bg-button-others-var",
       "tipo": "color",
-      "valor": "FFFFFF",
-      "legenda": null
+      "legenda": null,
+      "valor": "FFFFFF"
     },
     {
       "id": "color-button-others-var",
       "tipo": "color",
-      "valor": "B61313",
-      "legenda": null
+      "legenda": null,
+      "valor": "B61313"
     },
     {
       "id": "typeBorder-button-others-var",
       "tipo": "option",
-      "valor": "none",
-      "legenda": null
+      "legenda": null,
+      "valor": "none"
     },
     {
       "id": "sizeBorder-button-others-var",
       "tipo": "number",
-      "valor": "1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1"
     },
     {
       "id": "radiusBorder-button-others-var",
       "tipo": "number",
-      "valor": "1",
-      "legenda": null
+      "legenda": null,
+      "valor": "1"
     },
     {
       "id": "colorBorder-button-others-var",
       "tipo": "color",
-      "valor": "B61313",
-      "legenda": null
+      "legenda": null,
+      "valor": "B61313"
     },
     {
       "id": "new-menu-color-var",
       "tipo": "color",
-      "valor": "444444ff",
-      "legenda": null
+      "legenda": null,
+      "valor": "444444ff"
     },
     {
       "id": "hasnewsletter-var",
       "tipo": "option",
-      "valor": "none",
-      "legenda": null
+      "legenda": null,
+      "valor": "none"
     }
   ],
   "flex_prefs": {
